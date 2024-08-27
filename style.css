@@ -3691,6 +3691,8 @@ nav .items .item:hover{
     position: relative;
     width: 90%;
     height: 220px;
+    rotate: 0deg;
+
 }
 
 #kuliner .gambar-kuliner .img-kuliner {
