@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semat Bermartabat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Kalnia+Glaze:wght@100..700&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="logo">
+           <h1><a href="#">Semat Bermartabat</a></h1>
+        </div>
+        <nav class="menu">
+            <div class="head">
+                <div class="logo"><h1><a href="#">Desa Semat Jepara </a></h1></div>
+                <button type="button" class="close-menu-btn"></button>
+            </div>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li class="dropdown">
+                    <a href="#wisata">Wisata</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul class="sub-menu">
+                        <li class="dropdown">
+                            <a href="#wisata-alam"><span>Wisata Alam</span></a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <ul class="sub-menu sub-menu-right">
+                                <li onclick="showPantai('pantaisemat', 'button-pantai-semat')"><a href="#pantaisemat"><span>Pantai Semat</span></a></li>
+                                <li onclick="showPantai('pantaimbahsirah', 'button-pantai-mbah-sirah')"><a href="#pantaimbahsirah"><span>Pantai Mbah Sirah</span></a></li>
+                                <li onclick="showPantai('pantaikalibuntung', 'button-pantai-kalibuntung')"><a href="#pantaikalibuntung"><span>Pantai Kalibuntung</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#wisata-religi"><span>Wisata Religi</span></a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <ul class="sub-menu sub-menu-right">
+                                <li onclick="showMakam('makammbahsirah', 'button-makam-mbahsirah')"><a href="#makammbahsirah"><span>Makam Mbah Sirah</span></a></li>
+                                <li onclick="showMakam('makamyikfaqirsugih', 'button-makam-yikfaqirsugih')"><a href="#makamyikfaqirsugih"><span>Makam Yik Faqir Sugih</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#kerajinan">Kerajinan</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                     <ul class="sub-menu">
+                        <li class="dropdown">
+                            <a href="#"><span>Batik Tulis dan Cap</span></a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <ul class="sub-menu sub-menu-right">
+                                <li><a href="#"><span>Batik Kembang Turi</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#kuliner">Kuliner</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul class="sub-menu">
+                        <li><a href="#"><span>Sego Menir</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <button type="button" class="open-menu-btn">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </div>
+
+   </header>
+
+<!-- Beranda -->
+   <section id="beranda">
+    <div class="judul">
+        <h1>WELCOME TO DESA SEMAT BERMARTABAT</h1>
+        <p>Keindahan Desa Semat dengan wisata yang menawan, kerajinan yang unik, dan kuliner lokal yang menggugah selera.</p>
+        <a href="#tentang" class="btn-tombol" id="scroll-to-tentang">
+            <i class="fas fa-chevron-down"></i> 
+        </a>
+    </div>
+   </section>
+   
+
+   <section id="tentang">
+    <div class="judul">
+        <h2>Tentang Desa Semat</h2>
+        <div class="map">
+            <p>
+                <a href="https://maps.app.goo.gl/BsdwD4DVZk5inUhCA" target="_blank" rel="noopener noreferrer">
+                    Desa Semat, Kecamatan Tahunan, Kabupaten Jepara, Jawa Tengah, Indonesia.
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="tentang">
+        <div class="img-tentang">
+            <h1>Desa Semat Bermartabat</h1>
+           <img src="background.jpeg" alt="">
+        </div>
+
+        <div class="deskripsi">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui?
+                Lorem ipsum dolor sit  
+            </p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="wisata">
+        <div class="judul">
+            <h2>Wisata Desa Semat</h2>
+        </div>
+        
+        <div id="wisata-alam">
+            <div class="deskripsi">
+                <h1>Wisata Alam</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                </p>
+                <div class="buttons">
+                    <a href="#pantaisemat"><button id="button-pantai-semat" class="button" onclick="showPantai('pantaisemat', 'button-pantai-semat')"><span>Pantai Semat</span></button></a>
+                    <a href="#pantaimbahsirah"><button id="button-pantai-mbah-sirah" class="button" onclick="showPantai('pantaimbahsirah', 'button-pantai-mbah-sirah')"><span>Pantai Mbah Sirah</span></button></a>
+                    <a href="#pantaikalibuntung"><button id="button-pantai-kalibuntung" class="button" onclick="showPantai('pantaikalibuntung', 'button-pantai-kalibuntung')"><span>Pantai Kalibuntung</span></button></a>
+                </div>
+            </div>
+            <div class="gambar gambar-wisata-alam">
+                <input type="radio" name="SlideWisata" id="one-wisata-alam" checked>
+                <input type="radio" name="SlideWisata" id="two-wisata-alam">
+                <input type="radio" name="SlideWisata" id="three-wisata-alam">
+                <input type="radio" name="SlideWisata" id="four-wisata-alam">
+                <input type="radio" name="SlideWisata" id="five-wisata-alam">
+                <div class="img img-wisata-alam img-1-wisata-alam">
+                    <img src="wisata-alam/pantai-1.jpg" alt="">
+                </div>
+                <div class="img img-wisata-alam img-2-wisata-alam">
+                    <img src="wisata-alam/pantai-2.jpg" alt="">
+                </div>
+                <div class="img img-wisata-alam img-3-wisata-alam">
+                    <img src="wisata-alam/pantai-3.jpg" alt="">
+                </div>
+                <div class="img img-wisata-alam img-4-wisata-alam">
+                    <img src="wisata-alam/pantai-4.jpg" alt="">
+                </div>
+                <div class="img img-wisata-alam img-5-wisata-alam">
+                    <img src="wisata-alam/pantai-5.jpg" alt="">
+                </div>
+                <div class="sliders sliders-wisata-alam">
+                    <label for="one-wisata-alam" class="one-wisata-alam"></label>
+                    <label for="two-wisata-alam" class="two-wisata-alam"></label>
+                    <label for="three-wisata-alam" class="three-wisata-alam"></label>
+                    <label for="four-wisata-alam" class="four-wisata-alam"></label>
+                    <label for="five-wisata-alam" class="five-wisata-alam"></label>
+                </div>
+            </div>
+        </div>
+    
+        <div id="pantaisemat" class="content-pantai">
+            <div class="pantaisemat">
+                <div class="close-btn">
+                    <button class="close-btn" onclick="hidePantai('pantaisemat')">Tutup</button>
+                </div>
+                <h2>Wisata Alam Pantai Semat</h2>
+            </div>
+        </div>
+        
+        <div id="pantaimbahsirah" class="content-pantai">
+            <div class="close-btn">
+                <button class="close-btn" onclick="hidePantai('pantaimbahsirah')">Tutup</button>
+            </div>
+            <h2>Wisata Alam Mbah Sirah</h2>
+        </div>
+        
+        <div id="pantaikalibuntung" class="content-pantai">
+            <div class="close-btn">
+                 <button class="close-btn" onclick="hidePantai('pantaikalibuntung')">Tutup</button>
+            </div>      
+            <h2>Wisata Alam Pantai Kalibuntung</h2>
+        </div>
+    
+        <div id="wisata-religi">
+            <div class="gambar gambar-wisata-religi">
+                <input type="radio" name="SlideWisataReligi" id="one-wisata-religi" checked>
+                <input type="radio" name="SlideWisataReligi" id="two-wisata-religi">
+                <input type="radio" name="SlideWisataReligi" id="three-wisata-religi">
+                <input type="radio" name="SlideWisataReligi" id="four-wisata-religi">
+                <input type="radio" name="SlideWisataReligi" id="five-wisata-religi">
+                <div class="img img-wisata-religi img-1-wisata-religi">
+                    <img src="wisata-religi/wisata-religi-1.jpg" alt="">
+                </div>
+                <div class="img img-wisata-religi img-2-wisata-religi">
+                    <img src="wisata-religi/wisata-religi-2.jpg" alt="">
+                </div>
+                <div class="img img-wisata-religi img-3-wisata-religi">
+                    <img src="wisata-religi/wisata-religi-3.jpg" alt="">
+                </div>
+                <div class="img img-wisata-religi img-4-wisata-religi">
+                    <img src="wisata-religi/wisata-religi-4.jpg" alt="">
+                </div>
+                <div class="img img-wisata-religi img-5-wisata-religi">
+                    <img src="wisata-religi/wisata-religi-5.jpg" alt="">
+                </div>
+                <div class="sliders sliders-wisata-religi">
+                    <label for="one-wisata-religi" class="one-wisata-religi"></label>
+                    <label for="two-wisata-religi" class="two-wisata-religi"></label>
+                    <label for="three-wisata-religi" class="three-wisata-religi"></label>
+                    <label for="four-wisata-religi" class="four-wisata-religi"></label>
+                    <label for="five-wisata-religi" class="five-wisata-religi"></label>
+                </div>
+            </div>
+    
+            <div class="deskripsi">
+                <h1>Wisata Religi</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                </p>
+                <div class="buttons">
+                   <a href="#makammbahsirah"><button id="button-makam-mbahsirah" class="button" onclick="showMakam('makammbahsirah', 'button-makam-mbahsirah')"><span>Makam Mbah Sirah</span></button></a> 
+                   <a href="#makamyikfaqirsugih"><button id="button-makam-yikfaqirsugih" class="button" onclick="showMakam('makamyikfaqirsugih', 'button-makam-yikfaqirsugih')"><span>Makam Yik Faqir Sugih</span></button></a> 
+                </div>
+            </div>
+        </div>
+        
+        <div id="makammbahsirah" class="content-makam">
+            <div class="close-btn">
+                <button class="close-btn" onclick="hideMakam('makammbahsirah')">Tutup</button>
+            </div>
+            <h2>Wisata Religi Makam Mbah Sirah</h2>
+        </div>
+    
+        <div id="makamyikfaqirsugih" class="content-makam">
+            <div class="close-btn">
+                <button class="close-btn" onclick="hideMakam('makamyikfaqirsugih')">Tutup</button>
+            </div>
+            <h2>Wisata Religi Makam Yik Faqir Sugih</h2>
+        </div>
+    </section>
+
+
+    <section id="kerajinan">
+        <div class="judul">
+          <h2>Kerajinan Desa Semat</h2>
+        </div>
+    <div class="konten">
+
+        <div class="deskripsi">
+            <h1>
+                Batik Kembang Turi
+            </h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque esse non atque quod ut eum ullam fugit dolor. Sed aliquid iure, doloremque natus ab magnam. Non, quos enim tenetur aspernatur corrupti earum quis laudantium nemo voluptatibus animi, eos quibusdam tempora a eaque, facere labore. Ratione repudiandae deleniti, animi impedit illo harum enim nesciunt nulla praesentium asperiores reiciendis, eius obcaecati porro ducimus! Quibusdam molestias, harum fuga cupiditate, corrupti asperiores commodi perspiciatis eligendi ab deleniti tempora optio, velit consequatur voluptas sunt quam laborum quaerat assumenda ipsam. Facere minus sed aliquam eaque quos pariatur consequuntur, iste recusandae expedita, non autem eos sit cumque saepe inventore animi necessitatibus magni tenetur voluptate. Repudiandae, cupiditate nulla! Vitae obcaecati sapiente ea perspiciatis reiciendis id ratione, deserunt dolor. 
+            </p>
+        </div>
+        <div class="gambar">
+            <input type="radio" name="Slide" id="one" checked>
+            <input type="radio" name="Slide" id="two">
+            <input type="radio" name="Slide" id="three">
+            <input type="radio" name="Slide" id="four">
+            <input type="radio" name="Slide" id="five">
+            <div class="img img-1">
+                <img src="kerajinan/batik-1.jpg" alt="">
+            </div>
+            <div class="img img-2">
+                <img src="kerajinan/batik-2.jpg" alt="">
+            </div>
+            <div class="img img-3">
+                <img src="kerajinan/batik-3.jpg" alt="">
+            </div>
+            <div class="img img-4">
+                <img src="kerajinan/batik-4.jpg" alt="">
+            </div>
+            <div class="img img-5">
+                <img src="kerajinan/batik-5.jpg" alt="">
+            </div>
+            <div class="sliders">
+                <label for="one" class="one"></label>
+                <label for="two" class="two"></label>
+                <label for="three" class="three"></label>
+                <label for="four" class="four"></label>
+                <label for="five" class="five"></label>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+    <section id="kuliner">
+        <div class="judul">
+            <h2>Kuliner Desa Semat</h2>
+        </div>
+    
+        <div class="kuliner">
+            <div class="gambar gambar-kuliner">
+                <input type="radio" name="SlideWisataKuliner" id="one-kuliner" checked>
+                <input type="radio" name="SlideWisataKuliner" id="two-kuliner">
+                <input type="radio" name="SlideWisataKuliner" id="three-kuliner">
+                <input type="radio" name="SlideWisataKuliner" id="four-kuliner">
+                <input type="radio" name="SlideWisataKuliner" id="five-kuliner">
+                <div class="img img-kuliner img-1-kuliner">
+                    <img src="kuliner/kuliner-1.jpg" alt="">
+                </div>
+                <div class="img img-kuliner img-2-kuliner">
+                    <img src="kuliner/kuliner-2.jpg" alt="">
+                </div>
+                <div class="img img-kuliner img-3-kuliner">
+                    <img src="kuliner/kuliner-3.jpg" alt="">
+                </div>
+                <div class="img img-kuliner img-4-kuliner">
+                    <img src="kuliner/kuliner-4.jpg" alt="">
+                </div>
+                <div class="img img-kuliner img-5-kuliner">
+                    <img src="kuliner/kuliner-5.jpg" alt="">
+                </div>
+                <div class="sliders sliders-kuliner">
+                    <label for="one-kuliner" class="one-kuliner"></label>
+                    <label for="two-kuliner" class="two-kuliner"></label>
+                    <label for="three-kuliner" class="three-kuliner"></label>
+                    <label for="four-kuliner" class="four-kuliner"></label>
+                    <label for="five-kuliner" class="five-kuliner"></label>
+                </div>
+            </div>
+    
+            <div class="deskripsi">
+                <h1>Sego Menir</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, assumenda nihil quam non officia reprehenderit harum animi corporis qui? Tempora.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <div class="judul-gallery">
+            <div class="judul">
+                <h1>GALLERY</h1>
+               
+            </div>
+            <div class="deskripsi-gallery">
+                <h2>Abadikan Momen Tak Terlupakan</h2>
+                <p>Biarkan diri Anda terpesona oleh keindahan Desa Semat melalui galeri foto kami. <br>
+                    Saksikan panorama yang menakjubkan, momen-momen tak terlupakan, dan warna-warni kehidupan pantai.
+                </p>
+            </div>
+           
+        </div>
+
+        <nav class="gallery-nav">
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="pantai-semat">Pantai Semat</span>
+                <span class="item" data-name="pantai-mbahsirah">Pantai Mbah Sirah</span>
+                <span class="item" data-name="pantai-kalibuntung">Pantai Kalibuntung</span>
+                <span class="item" data-name="makam-mbahsirah">Makam Mbah Sirah</span>
+                <span class="item" data-name="makam-yikfakirsugih">Makam Yik Fakir Sugih</span>
+                <span class="item" data-name="batik-kembangturi">Batik Kembang Turi</span>
+                <span class="item" data-name="sego-menir">Sego Menir</span>
+            </div>
+        </nav>
+
+        <div class="gallery">
+            <!-- Pantai Semat Images -->
+            <div class="image" data-name="pantai-semat"><span><img src="wisata-alam/pantai-1.jpg" alt="Pantai Semat 1"></span></div>
+            <div class="image" data-name="pantai-semat"><span><img src="wisata-alam/pantai-2.jpg" alt="Pantai Semat 2"></span></div>
+            <div class="image" data-name="pantai-semat"><span><img src="wisata-alam/pantai-3.jpg" alt="Pantai Semat 3"></span></div>
+            <div class="image" data-name="pantai-semat"><span><img src="wisata-alam/pantai-4.jpg" alt="Pantai Semat 4"></span></div>
+            
+            <!-- Pantai Mbah Sirah Images -->
+            <div class="image" data-name="pantai-mbahsirah"><span><img src="wisata-alam/pantai-5.jpg" alt="Pantai Mbah Sirah 1"></span></div>
+            <div class="image" data-name="pantai-mbahsirah"><span><img src="wisata-alam/pantai-4.jpg" alt="Pantai Mbah Sirah 2"></span></div>
+            <div class="image" data-name="pantai-mbahsirah"><span><img src="wisata-alam/pantai-3.jpg" alt="Pantai Mbah Sirah 3"></span></div>
+            <div class="image" data-name="pantai-mbahsirah"><span><img src="wisata-alam/pantai-2.jpg" alt="Pantai Mbah Sirah 4"></span></div>
+            
+            <!-- Pantai Kalibuntung Images -->
+            <div class="image" data-name="pantai-kalibuntung"><span><img src="wisata-alam/pantai-1.jpg" alt="Pantai Kalibuntung 1"></span></div>
+            <div class="image" data-name="pantai-kalibuntung"><span><img src="wisata-alam/pantai-2.jpg" alt="Pantai Kalibuntung 2"></span></div>
+            <div class="image" data-name="pantai-kalibuntung"><span><img src="wisata-alam/pantai-3.jpg" alt="Pantai Kalibuntung 3"></span></div>
+            <div class="image" data-name="pantai-kalibuntung"><span><img src="wisata-alam/pantai-4.jpg" alt="Pantai Kalibuntung 4"></span></div>
+            
+            <!-- Makam Mbah Sirah Images -->
+            <div class="image" data-name="makam-mbahsirah"><span><img src="wisata-religi/wisata-religi-1.jpg" alt="Makam Mbah Sirah 1"></span></div>
+            <div class="image" data-name="makam-mbahsirah"><span><img src="wisata-religi/wisata-religi-2.jpg" alt="Makam Mbah Sirah 2"></span></div>
+            <div class="image" data-name="makam-mbahsirah"><span><img src="wisata-religi/wisata-religi-3.jpg" alt="Makam Mbah Sirah 3"></span></div>
+            <div class="image" data-name="makam-mbahsirah"><span><img src="wisata-religi/wisata-religi-4.jpg" alt="Makam Mbah Sirah 4"></span></div>
+            
+            <!-- Makam Yik Fakir Sugih Images -->
+            <div class="image" data-name="makam-yikfakirsugih"><span><img src="wisata-religi/wisata-religi-5.jpg" alt="Makam Yik Fakir Sugih 1"></span></div>
+            <div class="image" data-name="makam-yikfakirsugih"><span><img src="wisata-religi/wisata-religi-4.jpg" alt="Makam Yik Fakir Sugih 2"></span></div>
+            <div class="image" data-name="makam-yikfakirsugih"><span><img src="wisata-religi/wisata-religi-3.jpg" alt="Makam Yik Fakir Sugih 3"></span></div>
+            <div class="image" data-name="makam-yikfakirsugih"><span><img src="wisata-religi/wisata-religi-2.jpg" alt="Makam Yik Fakir Sugih 4"></span></div>
+            
+            <!-- Batik Kembang Turi Images -->
+            <div class="image" data-name="batik-kembangturi"><span><img src="kerajinan/batik-1.jpg" alt="Batik Kembang Turi 1"></span></div>
+            <div class="image" data-name="batik-kembangturi"><span><img src="kerajinan/batik-2.jpg" alt="Batik Kembang Turi 2"></span></div>
+            <div class="image" data-name="batik-kembangturi"><span><img src="kerajinan/batik-3.jpg" alt="Batik Kembang Turi 3"></span></div>
+            <div class="image" data-name="batik-kembangturi"><span><img src="kerajinan/batik-4.jpg" alt="Batik Kembang Turi 4"></span></div>
+            
+            <!-- Sego Menir Images -->
+            <div class="image" data-name="sego-menir"><span><img src="kuliner/kuliner-1.jpg" alt="Sego Menir 1"></span></div>
+            <div class="image" data-name="sego-menir"><span><img src="kuliner/kuliner-2.jpg" alt="Sego Menir 2"></span></div>
+            <div class="image" data-name="sego-menir"><span><img src="kuliner/kuliner-3.jpg" alt="Sego Menir 3"></span></div>
+            <div class="image" data-name="sego-menir"><span><img src="kuliner/kuliner-4.jpg" alt="Sego Menir 4"></span></div>
+        </div>
+
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image Category : <p>Not Defined</p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+
+        
+    </section>   
+    
+    <section id="contact">
+        <div class="contactUs">
+            <div class="title">
+                <h2>
+                    Kontak Info
+                </h2>
+            </div>
+            <div class="box">
+                <div class="contact form">
+                    <h3>Send a Massage</h3>
+                    <form>
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>First Nama</span>
+                                    <input type="text" placeholder="John">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Last Nama</span>
+                                    <input type="text" placeholder="Doe">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Email</span>
+                                    <input type="text" placeholder="JohnDoe@gmail.com">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Mobile</span>
+                                    <input type="text" placeholder="+62 8967 6998 8776">
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea placeholder="Write your message here...."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                <input type="submit" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </form>
+                </div>
+                <div class="contact info">
+                    <h3>
+                        Contact Info
+                    </h3>
+                    <div class="infoBox">
+                        <div>
+                            <span><ion-icon name="location"></ion-icon></span>
+                            <a href="https://maps.app.goo.gl/1cZmACk63o9Zqpgo9">Desa Semat, Jepara <br>Jawa Tengah, Indonesia</a><p></p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail"></ion-icon></span>
+                           <a href="mailto:JohnDoe@gmail.com">JohnDoe@gmail.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call"></ion-icon></span>
+                           <a href="tel:0896699887766">+62 8967 6998 8776</a>
+                        </div>
+                    </div>
+
+                    <div class="sci">
+                        <li><a href="https://www.facebook.com/share/LxDZMeFfzFzLC6fX/?mibextid=qi2Omg" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="https://x.com/Semat_brmartabt?t=tgBzQza4bmawQGkkmfjdCg&s=09https://x.com/Semat_brmartabt?t=tgBzQza4bmawQGkkmfjdCg&s=09" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="https://www.instagram.com/semat_bermartabat?igsh=MXdyamtsZWhmeGYyZg==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="https://www.youtube.com/@SematBermartabat" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </div>
+                </div>
+                <div class="contact map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15852.225537199309!2d110.63814423344907!3d-6.6399206297546955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e711e27143ee4a7%3A0x24466c953153df2!2sSemat%2C%20Kec.%20Tahunan%2C%20Kabupaten%20Jepara%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1724695986232!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="javascript.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
+   
+
+  
+    
+    
+</body>
+</html>
