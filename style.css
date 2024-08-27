@@ -1215,7 +1215,7 @@ nav .items .item:hover{
 
 .preview-box{
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
@@ -1266,7 +1266,7 @@ nav .items .item:hover{
 
 .image-box img{
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 0 0 3px 3px;
 }
 
