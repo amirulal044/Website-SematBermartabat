@@ -1792,15 +1792,19 @@ nav .items .item:hover{
     justify-content: center;
 }
 
-#tentang .video-tentang {
+#tentang .img-tentang {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-#tentang .video-tentang video {
+#tentang .img-tentang img {
+    padding: 0;
+    margin: 0;
+    margin: 8px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -1828,7 +1832,7 @@ nav .items .item:hover{
     to { transform: translateY(0); opacity: 1; }
 }
 
-#tentang .video-tentang h1 {
+#tentang .img-tentang h1 {
     font-family: "Playfair Display", serif;
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
