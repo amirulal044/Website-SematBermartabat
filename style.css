@@ -3007,21 +3007,28 @@ nav .items .item:hover{
 }
 
 #tentang .img-tentang {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-#tentang .img-tentang video {
-    border-radius: 10px;
+#tentang .img-tentang img {
+    padding: 0;
+    margin: 0;
+    padding: 8px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     max-width: 100%;
-    width: 100%;
-    height: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+
+
+
 }
 
 
