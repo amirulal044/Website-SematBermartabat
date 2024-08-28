@@ -478,6 +478,7 @@ html {
     position: relative;
     height: 400px;
     width: 700px;
+    rotate: 0deg;
 }
 
 #wisata-alam .gambar-wisata-alam .img-wisata-alam {
@@ -609,6 +610,8 @@ html {
     position: relative;
     height: 400px;
     width: 700px;
+    rotate: 0deg;
+
 }
 
 #wisata-religi .gambar-wisata-religi .img-wisata-religi {
@@ -686,7 +689,6 @@ html {
 
 .buttons{
     display: flex;
-
     gap: 10px;
 }
 
@@ -857,6 +859,8 @@ html {
     position: relative;
     height: 500px;
     width: 500px;
+    rotate: 0deg;
+
 }
 
 #kerajinan .gambar .img {
@@ -1001,6 +1005,8 @@ html {
     position:   relative;
     height: 400px;
     width: 650px;
+    rotate: 0deg;
+
 }
 
 #kuliner .gambar-kuliner .img-kuliner {
@@ -1283,6 +1289,277 @@ nav .items .item:hover{
 
 
 
+
+/*PENGURUS*/
+
+#pengurus {
+    /* Ubah warna latar belakang untuk kontras yang lebih baik */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+
+}
+
+.judulbesar-pengurus h1 {
+    max-width: 100%;
+    font-size:  6em;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #fff; /* Warna teks yang cerah untuk kontras */
+    margin: 0;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.pengurus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Agar fleksibel jika diperlukan */
+    width: 80%;
+    border: 2px solid #ddd; /* Border ringan */
+    border-radius: 10px; /* Sudut melengkung */
+    background: #f8f8f8; /* Warna latar belakang */
+    padding: 10px; /* Jarak di dalam ikon */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    transition: background 0.3s, border-color 0.3s; /* Transisi warna */
+    margin: 0 auto; /* Menempatkan elemen di tengah secara horizontal */
+}
+
+
+
+.kiri, .kanan {
+    flex: 1;
+    padding: 20px; /* Tambahkan padding untuk ruang lebih besar */
+}
+.kiri {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menyusun elemen di tengah secara horizontal */
+    justify-content: center; /* Menyusun elemen di tengah secara vertikal jika diperlukan */
+    padding: 20px;
+}
+
+.kiri h1 {
+    font-size: 2.5em;
+    line-height: 1.4;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 10px 0;
+    color: #333; /* Warna teks gelap untuk kontras */
+}
+
+
+
+.kiri .highlight-2 {
+    font-size: 1.2em;
+    color: #00bcd4; /* Warna biru cerah */
+    font-family: "Playfair Display", serif;
+    font-weight: bold; /* Tebal untuk penekanan */
+}
+
+.kiri p {
+    font-size: 18px;
+    color: #666; /* Warna teks abu-abu gelap */
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.highlight-3{
+    font-size: 18px;
+    color: black; /* Warna teks abu-abu gelap */
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+.kiri .tombol-pengurus {
+    background: #18b7ff;
+    color: white;
+    text-align: center;
+    height: 40px; /* Tinggi tombol */
+    line-height: 40px; /* Menyusun teks di tengah tombol secara vertikal */
+    text-decoration: none; /* Menghapus garis bawah pada teks */
+    display: inline-block;
+    padding: 0 20px; /* Jarak horizontal di dalam tombol */
+    font-size: 15px; /* Ukuran font */
+    border-radius: 4px; /* Sudut tombol melengkung */
+    transition: background-color 0.3s, color 0.3s; /* Transisi halus untuk efek hover */
+}
+
+.kiri .tombol-pengurus:hover {
+    background: #05172f;
+    color: white; /* Warna teks saat hover */
+}
+.kanan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Menyesuaikan ukuran gambar latar belakang */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0; /* Menghapus margin default */
+    height: 400px; /* Atur tinggi jika diperlukan */
+}
+
+.kolase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Jarak antar gambar */
+    justify-content: center; /* Menyusun gambar di tengah secara horizontal */
+    align-items: center; /* Menyusun gambar di tengah secara vertikal jika diperlukan */
+    width: 100%;
+}
+
+.kolase img {
+    width: calc(45% - 10px); /* Mengatur lebar gambar untuk 3 gambar per baris */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Efek transisi tambahan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan luar pada gambar */
+}
+
+.kolase img:nth-child(odd) {
+    transform: rotate(-5deg);
+}
+
+.kolase img:nth-child(even) {
+    transform: rotate(5deg);
+}
+
+.kolase img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar saat hover */
+}
+
+/*ANGGOTA PENGURUS*/
+
+.anggota-pengurus {
+    background: #fff;
+    display: flex; /* Mengatur tampilan kontainer menjadi fleksibel */
+    flex-wrap: nowrap; /* Mencegah ikon berpindah baris untuk tampilan yang lebih lebar */
+    justify-content: flex-start; /* Menyelaraskan ikon ke kiri */
+    gap: 5px; /* Jarak antar ikon lebih kecil */
+    padding: 10px;
+    margin: 10px;
+    overflow-x: auto; /* Menambahkan scroll horizontal jika diperlukan */
+    white-space: nowrap; /* Mencegah wrapping pada ikon */
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
+    max-width: 100%; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Menempatkan kontainer di tengah secara horizontal */
+    margin-top: 40px;
+}
+
+
+.pengurus-item {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border: 3px solid #c9bcbc; /* Menambahkan border dengan ketebalan 5px */
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Memberikan efek bayangan */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.pengurus-item:hover {
+    transform: translateY(-5px); /* Efek hover untuk menaikkan item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+}
+
+.pengurus-gambar {
+    width: 100%; /* Lebar tetap untuk gambar */
+    height: 300px; /* Tinggi tetap untuk gambar */
+    overflow: hidden;
+    margin: 0 auto 5px; /* Membuat margin bawah 5px */
+}
+
+.pengurus-gambar img {
+    border-radius: 20px;
+    width: 100%; /* Mengisi lebar kontainer */
+    height: 100%; /* Mengisi tinggi kontainer */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container */
+    display: block; /* Menghapus ruang tambahan di bawah gambar */
+}
+
+
+
+.pengurus-info {
+    padding: 15px;
+    margin: 0;
+}
+
+.pengurus-info h3 {
+    margin:  0;
+    font-size: 1.8em;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pengurus-info p {
+    font-size: 16px;
+    color: #f8f8f8;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    margin: 2px;
+}
+
+.social-buttons {
+    margin-top: 10px;
+   
+}
+
+
+
+.social-buttons img {
+    margin: 0;
+    width: 40px;
+}
+.social-button {
+    display: inline-flex; /* Mengatur tampilan tombol menjadi fleksibel secara horizontal */
+    align-items: center; /* Menyelaraskan konten di tengah secara vertikal */
+    justify-content: center; /* Menyelaraskan konten di tengah secara horizontal */
+    width: 50px; /* Lebar tombol */
+    height: 50px; /* Tinggi tombol */
+    margin: 5px;
+    padding: 0; /* Menghapus padding karena ukuran tombol sudah ditentukan dengan width dan height */
+    color: white;
+    border-radius: 50%; /* Membuat tombol menjadi bulat */
+    text-decoration: none;
+    font-size: 20px; /* Ukuran font disesuaikan dengan ukuran tombol */
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    line-height: 50px; /* Menyelaraskan teks secara vertikal */
+}
+
+
+.social-button:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.social-button.wa:hover {
+    background-color: #25D366; /* Warna hover WA */
+}
+
+.social-button.ig:hover {
+    background-color: #E4405F; /* Warna hover IG */
+}
+
+
+
+/* kontak */
+
+
 #contact{
     margin: 0;
     padding: 0;
@@ -1512,6 +1789,695 @@ nav .items .item:hover{
     width: 100%;
     height: 100%;
 }
+
+
+
+ /* pantai-semat */
+ #pantai-semat .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+#pantai-semat .pantai-semat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#pantai-semat .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#pantai-semat .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#pantai-semat .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#pantai-semat .gambar-pantai-semat {
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .img-pantai-semat.img-1-pantai-semat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #two-pantai-semat:checked ~ .img-pantai-semat.img-2-pantai-semat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #three-pantai-semat:checked ~ .img-pantai-semat.img-3-pantai-semat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #four-pantai-semat:checked ~ .img-pantai-semat.img-4-pantai-semat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #five-pantai-semat:checked ~ .img-pantai-semat.img-5-pantai-semat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .sliders-pantai-semat label.one-pantai-semat,
+#pantai-semat #two-pantai-semat:checked ~ .sliders-pantai-semat label.two-pantai-semat,
+#pantai-semat #three-pantai-semat:checked ~ .sliders-pantai-semat label.three-pantai-semat,
+#pantai-semat #four-pantai-semat:checked ~ .sliders-pantai-semat label.four-pantai-semat,
+#pantai-semat #five-pantai-semat:checked ~ .sliders-pantai-semat label.five-pantai-semat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-semat .sliders-pantai-semat label:hover {
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-semat .gambar-pantai-semat input[type="radio"] {
+    display: none;
+}
+
+
+
+
+ /* pantai-mbahsirah */
+ #pantai-mbahsirah .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+ 
+
+#pantai-mbahsirah .pantai-mbahsirah{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#pantai-mbahsirah .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#pantai-mbahsirah .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#pantai-mbahsirah .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah {
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-2-pantai-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-3-pantai-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-4-pantai-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-5-pantai-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.one-pantai-mbahsirah,
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.two-pantai-mbahsirah,
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.three-pantai-mbahsirah,
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.four-pantai-mbahsirah,
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.five-pantai-mbahsirah {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-mbahsirah .sliders-pantai-mbahsirah label:hover {
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-mbahsirah .gambar-pantai-mbahsirah input[type="radio"] {
+    display: none;
+}
+
+
+
+
+ /* pantai-kalibuntung */
+ #pantai-kalibuntung .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+ 
+
+#pantai-kalibuntung .pantai-kalibuntung{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#pantai-kalibuntung .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#pantai-kalibuntung .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#pantai-kalibuntung .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung {
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-2-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-3-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-4-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-5-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.one-pantai-kalibuntung,
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.two-pantai-kalibuntung,
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.three-pantai-kalibuntung,
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.four-pantai-kalibuntung,
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.five-pantai-kalibuntung {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-kalibuntung .sliders-pantai-kalibuntung label:hover {
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#pantai-kalibuntung .gambar-pantai-kalibuntung input[type="radio"] {
+    display: none;
+}
+
+
+
+
+ /* makam-mbahsirah */
+ #makam-mbahsirah .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+ 
+
+#makam-mbahsirah .makam-mbahsirah{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#makam-mbahsirah .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#makam-mbahsirah .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#makam-mbahsirah .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah {
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#makam-mbahsirah .sliders-makam-mbahsirah label:hover {
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"] {
+    display: none;
+}
+
+
+
+
+
+
+ /* makam-yikfaqirsugih */
+ #makam-yikfaqirsugih .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+ 
+
+#makam-yikfaqirsugih .makam-yikfaqirsugih{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#makam-yikfaqirsugih .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+#makam-yikfaqirsugih .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#makam-yikfaqirsugih .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih {
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-2-makam-yikfaqirsugih img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-3-makam-yikfaqirsugih img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-4-makam-yikfaqirsugih img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-5-makam-yikfaqirsugih img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
+    background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"] {
+    display: none;
+}
+
+
+
 
 
     
@@ -2182,7 +3148,7 @@ nav .items .item:hover{
 .close-btn button,
 .buttons button {
    padding: 12px 24px;
-   font-size: 1.4rem;
+   font-size: 1.2rem;
    border: none;
    background-color: transparent;
    border: 1px solid #0056b3;
@@ -2342,8 +3308,8 @@ nav .items .item:hover{
 
 #kerajinan .gambar {
     position: relative;
-    height: 1000px;
-    width: 90%;
+    height: 800px;
+    width: 95%;
     rotate: 180deg;
 }
 
@@ -2570,6 +3536,88 @@ nav .items .item:hover{
     display: none;
 }
 
+
+
+/* pengurus */
+
+#pengurus h1{
+    font-size: 3.5em;
+}
+
+
+#pengurus .pengurus {
+    display: flex;
+    flex-direction: column;
+    rotate: 180deg;
+    width: 90%;
+     
+}
+
+#pengurus .kiri{
+    margin: 0;
+    padding: 0;
+    rotate: 180deg;
+    padding: 10px;
+}
+
+
+
+#pengurus .kanan{
+    margin: 0;
+    padding: 0;
+    rotate: 180deg;
+}
+
+
+.kolase img:nth-child(odd) {
+    transform: rotate(-0deg);
+}
+
+.kolase img:nth-child(even) {
+    transform: rotate(0deg);
+}
+
+
+
+
+/* pengurus */
+
+#pengurus h1{
+    font-size: 2.5em;
+}
+
+
+#pengurus .pengurus {
+    display: flex;
+    flex-direction: column;
+    rotate: 180deg;
+    width: 90%;
+     
+}
+
+#pengurus .kiri{
+    margin: 0;
+    padding: 0;
+    rotate: 180deg;
+    padding: 10px;
+}
+
+
+
+#pengurus .kanan{
+    margin: 0;
+    padding: 0;
+    rotate: 180deg;
+}
+
+
+.kolase img:nth-child(odd) {
+    transform: rotate(-0deg);
+}
+
+.kolase img:nth-child(even) {
+    transform: rotate(0deg);
+}
 
 
  /* Gallery */
@@ -2841,6 +3889,408 @@ nav .items .item:hover{
         padding: 0;
 
     }
+
+
+
+    
+ /* pantai-semat */
+/*  #pantai-mbahsirah */
+/* pantai-kalibuntung  */
+
+
+
+
+ #pantai-semat .judul,
+ #pantai-mbahsirah .judul,
+ #pantai-kalibuntung .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+
+ }
+
+ #pantai-semat .judul h2,
+ #pantai-mbahsirah .judul h2,
+ #pantai-kalibuntung .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+#pantai-semat .pantai-semat,
+#pantai-mbahsirah .pantai-mbahsirah,
+#pantai-kalibuntung .pantai-kalibuntung{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#pantai-semat .deskripsi,
+#pantai-mbahsirah .deskripsi,
+#pantai-kalibuntung .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#pantai-semat .deskripsi h1,
+#pantai-mbahsirah .deskripsi h1,
+#pantai-kalibuntung .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#pantai-semat .deskripsi p,
+#pantai-mbahsirah .deskripsi p,
+#pantai-kalibuntung .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#pantai-semat .gambar-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-kalibuntung  {
+    position: relative;
+    width: 90%;
+    rotate: 0deg;
+
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-semat .img-pantai-kalibuntung {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat img,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah img,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .img-pantai-semat.img-1-pantai-semat img,
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #two-pantai-semat:checked ~ .img-pantai-semat.img-2-pantai-semat img,
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #three-pantai-semat:checked ~ .img-pantai-semat.img-3-pantai-semat img,
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #four-pantai-semat:checked ~ .img-pantai-semat.img-4-pantai-semat img,
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img  {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #five-pantai-semat:checked ~ .img-pantai-semat.img-5-pantai-semat img,
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img  {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat label,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah label,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung label {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .sliders-pantai-semat label.one-pantai-semat,
+#pantai-semat #two-pantai-semat:checked ~ .sliders-pantai-semat label.two-pantai-semat,
+#pantai-semat #three-pantai-semat:checked ~ .sliders-pantai-semat label.three-pantai-semat,
+#pantai-semat #four-pantai-semat:checked ~ .sliders-pantai-semat label.four-pantai-semat,
+#pantai-semat #five-pantai-semat:checked ~ .sliders-pantai-semat label.five-pantai-semat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.one-pantai-mbahsirah,
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.two-pantai-mbahsirah,
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.three-pantai-mbahsirah,
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.four-pantai-mbahsirah,
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.five-pantai-mbahsirah {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.one-pantai-kalibuntung,
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.two-pantai-kalibuntung,
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.three-pantai-kalibuntung,
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.four-pantai-kalibuntung,
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.five-pantai-kalibuntung {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#pantai-semat .sliders-pantai-semat label:hover,
+#pantai-mbahsirah .sliders-pantai-mbahsirah label:hover,
+#pantai-kalibuntung .sliders-pantai-kalibuntung label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#pantai-semat .gambar-pantai-semat input[type="radio"],
+#pantai-mbahsirah .gambar-pantai-mbahsirah input[type="radio"],
+#pantai-kalibuntung .gambar-pantai-kalibuntung input[type="radio"] {
+    display: none;
+}
+
+
+
+ /* makam-mbahsirah */
+/*  makam-yikfaqirsugih */
+
+
+
+
+
+#makam-mbahsirah .judul,
+#makam-yikfaqirsugih .judul{
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   max-width: 100%;
+
+}
+
+#makam-mbahsirah .judul h2,
+#makam-yikfaqirsugih .judul h2{
+   margin: 0;
+   padding: 0;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 3rem;
+   font-family: "Playfair Display", serif;
+   font-weight: 700;
+   text-align: center;
+   color: #fff;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+   padding: 20px 0;
+}
+
+
+#makam-mbahsirah .makam-mbahsirah,
+#makam-yikfaqirsugih .makam-yikfaqirsugih{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   background: #fff;
+}
+
+
+
+#makam-mbahsirah .deskripsi,
+#makam-yikfaqirsugih .deskripsi{
+   background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   max-width: 100%;
+   margin: 20px;
+   text-align: center;
+   height: auto;
+   font-family: "Playfair Display", serif;
+}
+
+#makam-mbahsirah .deskripsi h1,
+#makam-yikfaqirsugih .deskripsi h1 {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   border-radius: 10px;
+   color: #fff;
+   font-size: 2.5em;
+   padding: 5px;
+   margin-bottom: 20px;
+   font-family: 'Georgia', serif;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#makam-mbahsirah .deskripsi p,
+#makam-yikfaqirsugih .deskripsi p{
+   color: #000;
+   line-height: 1.6;
+   font-size: 1em;
+   font-family: "Playfair Display", serif;
+   text-align: justify;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih{
+   position: relative;
+   width: 90%;
+   rotate: 0deg;
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   clip-path: circle(0% at 0% 100%);
+   transition: all 0.7s;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img,
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img,
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img,
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img,
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img,
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%);
+   z-index: 999;
+   display: flex;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
+   height: 20px;
+   width: 20px;
+   border: 2px solid #fff;
+   margin: 0 3px;
+   cursor: pointer;
+   border-radius: 50%;
+   transition: all 0.3s ease;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+
+#makam-mbahsirah .sliders-makam-mbahsirah label:hover,
+#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"],
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"]{
+   display: none;
+}
+
    
 
  }
@@ -3325,13 +4775,11 @@ nav .items .item:hover{
 #wisata-religi .gambar-wisata-religi .img-wisata-religi {
     position: absolute;
     height: 100%;
-
     width: 100%;
 }
 
 #wisata-religi .gambar-wisata-religi .img-wisata-religi img {
     height: 100%;
-
     width: 100%;
     object-fit: cover;
     clip-path: circle(0% at 0% 100%);
@@ -4086,6 +5534,409 @@ nav .items .item:hover{
         padding: 0;
 
     }
+
+
+    
+    
+ /* pantai-semat */
+/*  #pantai-mbahsirah */
+/* pantai-kalibuntung  */
+
+
+
+
+ #pantai-semat .judul,
+ #pantai-mbahsirah .judul,
+ #pantai-kalibuntung .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+
+ }
+
+ #pantai-semat .judul h2,
+ #pantai-mbahsirah .judul h2,
+ #pantai-kalibuntung .judul h2{
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#pantai-semat .pantai-semat,
+#pantai-mbahsirah .pantai-mbahsirah,
+#pantai-kalibuntung .pantai-kalibuntung{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#pantai-semat .deskripsi,
+#pantai-mbahsirah .deskripsi,
+#pantai-kalibuntung .deskripsi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 100%;
+    margin: 10px;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#pantai-semat .deskripsi h1,
+#pantai-mbahsirah .deskripsi h1,
+#pantai-kalibuntung .deskripsi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#pantai-semat .deskripsi p,
+#pantai-mbahsirah .deskripsi p,
+#pantai-kalibuntung .deskripsi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#pantai-semat .gambar-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-kalibuntung  {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    rotate: 0deg;
+
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-semat .img-pantai-kalibuntung {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pantai-semat .gambar-pantai-semat .img-pantai-semat img,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah img,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .img-pantai-semat.img-1-pantai-semat img,
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #two-pantai-semat:checked ~ .img-pantai-semat.img-2-pantai-semat img,
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #three-pantai-semat:checked ~ .img-pantai-semat.img-3-pantai-semat img,
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #four-pantai-semat:checked ~ .img-pantai-semat.img-4-pantai-semat img,
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img  {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat #five-pantai-semat:checked ~ .img-pantai-semat.img-5-pantai-semat img,
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img  {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#pantai-semat .gambar-pantai-semat .sliders-pantai-semat label,
+#pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah label,
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#pantai-semat #one-pantai-semat:checked ~ .sliders-pantai-semat label.one-pantai-semat,
+#pantai-semat #two-pantai-semat:checked ~ .sliders-pantai-semat label.two-pantai-semat,
+#pantai-semat #three-pantai-semat:checked ~ .sliders-pantai-semat label.three-pantai-semat,
+#pantai-semat #four-pantai-semat:checked ~ .sliders-pantai-semat label.four-pantai-semat,
+#pantai-semat #five-pantai-semat:checked ~ .sliders-pantai-semat label.five-pantai-semat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.one-pantai-mbahsirah,
+#pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.two-pantai-mbahsirah,
+#pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.three-pantai-mbahsirah,
+#pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.four-pantai-mbahsirah,
+#pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .sliders-pantai-mbahsirah label.five-pantai-mbahsirah {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.one-pantai-kalibuntung,
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.two-pantai-kalibuntung,
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.three-pantai-kalibuntung,
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.four-pantai-kalibuntung,
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .sliders-pantai-kalibuntung label.five-pantai-kalibuntung {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#pantai-semat .sliders-pantai-semat label:hover,
+#pantai-mbahsirah .sliders-pantai-mbahsirah label:hover,
+#pantai-kalibuntung .sliders-pantai-kalibuntung label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#pantai-semat .gambar-pantai-semat input[type="radio"],
+#pantai-mbahsirah .gambar-pantai-mbahsirah input[type="radio"],
+#pantai-kalibuntung .gambar-pantai-kalibuntung input[type="radio"] {
+    display: none;
+}
+
+
+
+ /* makam-mbahsirah */
+/*  makam-yikfaqirsugih */
+
+
+
+
+
+#makam-mbahsirah .judul,
+#makam-yikfaqirsugih .judul{
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   max-width: 100%;
+
+}
+
+#makam-mbahsirah .judul h2,
+#makam-yikfaqirsugih .judul h2{
+   margin: 0;
+   padding: 0;
+   margin: 10px;
+   padding: 10px;
+   font-size: 2rem;
+   font-family: "Playfair Display", serif;
+   font-weight: 700;
+   text-align: center;
+   color: #fff;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+   padding: 20px 0;
+}
+
+
+#makam-mbahsirah .makam-mbahsirah,
+#makam-yikfaqirsugih .makam-yikfaqirsugih{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   background: #fff;
+}
+
+
+
+#makam-mbahsirah .deskripsi,
+#makam-yikfaqirsugih .deskripsi{
+   background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   max-width: 100%;
+   margin: 20px;
+   text-align: center;
+   height: auto;
+   font-family: "Playfair Display", serif;
+}
+
+#makam-mbahsirah .deskripsi h1,
+#makam-yikfaqirsugih .deskripsi h1 {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   border-radius: 10px;
+   color: #fff;
+   font-size: 1.8em;
+   padding: 5px;
+   margin-bottom: 20px;
+   font-family: 'Georgia', serif;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#makam-mbahsirah .deskripsi p,
+#makam-yikfaqirsugih .deskripsi p{
+   color: #000;
+   line-height: 1.6;
+   font-size: 1em;
+   font-family: "Playfair Display", serif;
+   text-align: justify;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih{
+   position: relative;
+   width: 100%;
+   height: 220px;
+   rotate: 0deg;
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   clip-path: circle(0% at 0% 100%);
+   transition: all 0.7s;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img,
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img,
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img,
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img,
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img,
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%);
+   z-index: 999;
+   display: flex;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label,
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
+   height: 13px;
+   width: 13px;
+   border: 2px solid #fff;
+   margin: 0 3px;
+   cursor: pointer;
+   border-radius: 50%;
+   transition: all 0.3s ease;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
+#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+
+#makam-mbahsirah .sliders-makam-mbahsirah label:hover,
+#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"],
+#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"]{
+   display: none;
+}
+
    
     
 }
