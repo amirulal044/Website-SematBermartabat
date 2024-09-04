@@ -2412,6 +2412,7 @@ html {
     position: relative;
     height: 450px;
     width: 650px;
+    rotate: 0deg;
 }
 
  #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
@@ -4679,6 +4680,7 @@ nav .items .item:hover{
     position: relative;
     height: 450px;
     width: 100%;
+    rotate: 0deg;
 }
 
  #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
@@ -7526,6 +7528,7 @@ nav .items .item:hover{
     position: relative;
     height: 220px;
     width: 100%;
+    rotate: 0deg;
 }
 
  #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
