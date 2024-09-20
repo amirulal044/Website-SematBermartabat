@@ -202,9 +202,9 @@ html {
 
 #beranda {
     min-height: 100vh;
-    background-image: url(background.jpeg);
+    background-image: url(background-semat.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -625,6 +625,7 @@ html {
 #pantai-semat .gambar-pantai-semat {
     position: relative;
     height: 400px;
+    rotate: 0deg;
     width: 650px;
 }
 
@@ -938,6 +939,7 @@ html {
 #pantai-mbahsirah .gambar-pantai-mbahsirah {
     position: relative;
     height: 400px;
+    rotate: 0deg;
     width: 650px;
 }
 
@@ -1486,305 +1488,6 @@ html {
 
 
 
- /* pantai-mororejo */
- #pantai-mororejo .judul h2{
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    font-size: 5rem;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    padding: 20px 0;
-}
- 
-
-#pantai-mororejo .pantai-mororejo{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-}
-
-
-
-#pantai-mororejo .deskripsi {
-    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 500px;
-    margin: 20px;
-    text-align: center;
-    height: 400px;
-}
-
-#pantai-mororejo .deskripsi h1 {
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    border-radius: 10px;
-    color: #fff;
-    font-size: 2.5em;
-    padding: 5px;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-#pantai-mororejo .deskripsi p {
-    color: #000;
-    line-height: 1.6;
-    font-size: 1em;
-    text-align: justify;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo {
-    position: relative;
-    height: 400px;
-    width: 650px;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    clip-path: circle(0% at 0% 100%);
-    transition: all 0.7s;
-}
-
-#pantai-mororejo #one-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #two-pantai-mororejo:checked ~ .img-pantai-mororejo.img-2-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #three-pantai-mororejo:checked ~ .img-pantai-mororejo.img-3-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #four-pantai-mororejo:checked ~ .img-pantai-mororejo.img-4-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #five-pantai-mororejo:checked ~ .img-pantai-mororejo.img-5-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 999;
-    display: flex;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo label {
-    height: 13px;
-    width: 13px;
-    border: 2px solid #fff;
-    margin: 0 3px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-#pantai-mororejo #one-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.one-pantai-mororejo,
-#pantai-mororejo #two-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.two-pantai-mororejo,
-#pantai-mororejo #three-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.three-pantai-mororejo,
-#pantai-mororejo #four-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.four-pantai-mororejo,
-#pantai-mororejo #five-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.five-pantai-mororejo {
-    width: 35px;
-    border-radius: 14px;
-       background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#pantai-mororejo .sliders-pantai-mororejo label:hover {
-       background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#pantai-mororejo .gambar-pantai-mororejo input[type="radio"] {
-    display: none;
-}
-
-
-
-/* AKTIVITAS */
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo{
-    margin: 0 auto;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-   
-}
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h1{
-    font-size: 5em;
-    text-align: center;
-    position: relative;
-    font-family: "Playfair Display", serif;
-    padding: 20px;
-    margin-top: 30px;
-    color: #fff ;
-    background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h2{
-    font-family: 'Cinzel Decorative', serif;
-    text-align: center;
-    font-size: 2.2em; 
-    color: #555;
-    margin-top: 10px;
-}
-
-#aktivitas-pantaimororejo .highlight {
-    color: #00bcd4;
-}
-
-
-#aktivitas-pantaimororejo  .judul-aktivitas-pantaimororejo p{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 810px;
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3em; 
-    color: #666;
-    line-height: 1.5; 
-    
-}
-
-#aktivitas-pantaimororejo .icons-aktivitas-pantaimororejo {
-    display: flex;
-    flex-wrap: nowrap;  
-    justify-content: center;  
-    gap: 20px; 
-    padding: 10px; 
-    max-width: 100%;  
-}
-
- 
-#aktivitas-pantaimororejo .icon {
-    text-align: center;  
-    height: 140px; 
-    width: 120px; 
-    border: 2px solid #ddd;  
-    border-radius: 10px;  
-    background: #f8f8f8;  
-    padding: 10px;  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
-    transition: background 0.3s, border-color 0.3s;  
-    flex: 0 0 auto;  
-}
-
-
-#aktivitas-pantaimororejo .icon:hover {
-    transform: translateY(-5px);  
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
-}
-
- 
-#aktivitas-pantaimororejo .icon img {
-    width: 60px;  
-    height: 60px;  
-    object-fit: cover;  
-    margin-bottom: 10px;  
-    cursor: pointer;  
-    transition: transform 0.3s;  
-}
-  
-
-#aktivitas-pantaimororejo .icon h1 {
-    font-size: 16px;  
-    margin: 0; 
-}
- 
-
- 
-#aktivitas-pantaimororejo .icon.active-pantaimororejo  {
-    background: linear-gradient(135deg, #003f6c,  #05172f);
-
-    color: white;
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo {
-    margin: 0 auto;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    max-width: 90%;
-    border-radius: 10px;
-    margin: auto;
-    justify-content: center;
-    gap: 0; 
-}
-
- 
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .gambar img {
-    margin: 0;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi {
-    text-align: justify;
-    height: 100%;
-    height: 350px;
-
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    
-
-
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi h1 {
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
-    color: #000;
-    background: #fff;
-}
-
-
-#aktivitas-pantaimororejo #activity-image-pantaimororejo {
-    max-width: 100%;
-    width: 100%;  
-    height: 390px;
-}
-
-
-#aktivitas-pantaimororejo #activity-description-pantaimororejo {
-    font-size: 1rem;
-    line-height: 2em;
-    color: #fff;
-}
 
 
 
@@ -1879,14 +1582,7 @@ html {
 #wisata-religi #three-wisata-religi:checked ~ .img-wisata-religi.img-3-wisata-religi img {
     clip-path: circle(150% at 0% 100%);
 }
-
-#wisata-religi #four-wisata-religi:checked ~ .img-wisata-religi.img-4-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#wisata-religi #five-wisata-religi:checked ~ .img-wisata-religi.img-5-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
+ 
 
 #wisata-religi .gambar-wisata-religi .sliders-wisata-religi {
     position: absolute;
@@ -1909,9 +1605,7 @@ html {
 
 #wisata-religi #one-wisata-religi:checked ~ .sliders-wisata-religi label.one-wisata-religi,
 #wisata-religi #two-wisata-religi:checked ~ .sliders-wisata-religi label.two-wisata-religi,
-#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi,
-#wisata-religi #four-wisata-religi:checked ~ .sliders-wisata-religi label.four-wisata-religi,
-#wisata-religi #five-wisata-religi:checked ~ .sliders-wisata-religi label.five-wisata-religi {
+#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -2019,14 +1713,6 @@ html {
     clip-path: circle(150% at 0% 100%);
 }
 
-#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img {
-    clip-path: circle(150% at 0% 100%);
-}
-
 #makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah {
     position: absolute;
     bottom: 20px;
@@ -2048,9 +1734,7 @@ html {
 
 #makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
 #makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
-#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
-#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
-#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah{
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
@@ -2265,7 +1949,7 @@ html {
 
 #wisata-edukasi .gambar-wisata-edukasi {
     position: relative;
-    height: 450px;
+    height: 400px;
     width: 700px;
     rotate: 0deg;
 }
@@ -2346,10 +2030,10 @@ html {
 }
 
 
- /* edukasi-batikturi */
+ /* edukasi-batiksemat */
 
  
- #edukasibatikturi .judul h2{
+ #edukasibatiksemat .judul h2{
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -2365,7 +2049,7 @@ html {
 }
  
 
- #edukasi-batikturi .edukasi-batikturi{
+ #edukasi-batiksemat .edukasi-batiksemat{
     margin: 0;
     padding: 0;
     display: flex;
@@ -2377,7 +2061,7 @@ html {
 
 
 
- #edukasibatikturi .deskripsi {
+ #edukasibatiksemat .deskripsi {
     margin: 0;
     padding: 0;
     max-width: 500px;
@@ -2390,7 +2074,7 @@ html {
     height: 400px;
 }
 
- #edukasibatikturi .deskripsi h1 {
+ #edukasibatiksemat .deskripsi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
@@ -2401,27 +2085,27 @@ html {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
- #edukasibatikturi .deskripsi p {
+ #edukasibatiksemat .deskripsi p {
     color: #000;
     line-height: 1.6;
     font-size: 1em;
     text-align: justify;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat {
     position: relative;
-    height: 450px;
+    height: 400px;
     width: 650px;
     rotate: 0deg;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi img {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -2429,27 +2113,27 @@ html {
     transition: all 0.7s;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-1-edukasi-batikturi img {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-1-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-2-edukasi-batikturi img {
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-2-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-3-edukasi-batikturi img {
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-3-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-4-edukasi-batikturi img {
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-4-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-5-edukasi-batikturi img {
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-5-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -2458,7 +2142,7 @@ html {
     display: flex;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi label {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat label {
     height: 13px;
     width: 13px;
     border: 2px solid #fff;
@@ -2468,28 +2152,28 @@ html {
     transition: all 0.3s ease;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.one-edukasi-batikturi,
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.two-edukasi-batikturi,
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.three-edukasi-batikturi,
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.four-edukasi-batikturi,
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.five-edukasi-batikturi {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.one-edukasi-batiksemat,
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.two-edukasi-batiksemat,
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.three-edukasi-batiksemat,
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.four-edukasi-batiksemat,
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.five-edukasi-batiksemat {
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .sliders-edukasi-batikturi label:hover {
+ #edukasibatiksemat .sliders-edukasi-batiksemat label:hover {
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi input[type="radio"] {
+ #edukasibatiksemat .gambar-edukasi-batiksemat input[type="radio"] {
     display: none;
 }
 
 
-#edukasibatikturi .langkah-edukasi-batikturi {
+#edukasibatiksemat .langkah-edukasi-batiksemat {
     margin: 20px;
     padding: 20px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -2504,7 +2188,7 @@ html {
 }
  
 
-#edukasibatikturi .langkah-edukasi-batikturi h1 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h1 {
     border-radius: 10px;
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     color: #000;
@@ -2518,12 +2202,12 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi .langkah {
+#edukasibatiksemat .langkah-edukasi-batiksemat .langkah {
     margin: 0;
     padding: 0;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi h2 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h2 {
     padding: 20px;
     font-size: 1.8em;
     color: #fff;
@@ -2534,19 +2218,21 @@ html {
     font-family: "Playfair Display", serif;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi ul {
+#edukasibatiksemat .langkah-edukasi-batiksemat ul {
     list-style-type: lower-alpha;
     margin-left: 20px;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi li {
+#edukasibatiksemat .langkah-edukasi-batiksemat li {
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi strong {
+#edukasibatiksemat .langkah-edukasi-batiksemat strong {
     color: #d0c6e0;
 }
+
+
 
 
 
@@ -2672,18 +2358,21 @@ html {
 }
 
 
- /* Kerajinan */
+ /* kerajinan */
 
- #kerajinan .judul{
+
+ 
+ #kerajinan .judul {
     background: linear-gradient(135deg, #05172f, #003f6c);
     max-width: 100%;
- }
+    
 
+ }
 
  #kerajinan .judul h2{
     margin: 0;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 5rem;
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -2694,19 +2383,22 @@ html {
 }
 
 
-#kerajinan .konten{
+
+/* kerajinan-kembangturi */
+#kerajinan .kerajinan-kembangturi{
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
-    
     background: #fff;
-    font-family: "Playfair Display", serif;
+    
 }
 
-#kerajinan .deskripsi {
+
+
+#kerajinan .deskripsi-kembangturi {
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2715,9 +2407,10 @@ html {
     margin: 20px;
     text-align: center;
     height: 500px;
+    font-family: "Playfair Display", serif;
 }
 
-#kerajinan .deskripsi h1 {
+#kerajinan .deskripsi-kembangturi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
@@ -2727,58 +2420,50 @@ html {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-#kerajinan .deskripsi p {
+#kerajinan .deskripsi-kembangturi p {
     color: #000;
     line-height: 1.6;
     font-size: 1.1em;
-    font-family: "Playfair Display", serif;
     text-align: justify;
 }
 
-#kerajinan .gambar {
-    position: relative;
+#kerajinan .gambar-kerajinan-kembangturi {
+    position:   relative;
     height: 500px;
     width: 500px;
     rotate: 0deg;
 
 }
 
-#kerajinan .gambar .img {
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-#kerajinan .gambar .img img {
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     clip-path: circle(0% at 0% 100%);
+    border-radius: 10px;
     transition: all 0.7s;
 }
 
-
-#kerajinan #one:checked ~ .img-1 img {
+#kerajinan #one-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-1-kerajinan-kembangturi img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#kerajinan #two:checked ~ .img-2 img {
+#kerajinan #two-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-2-kerajinan-kembangturi img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#kerajinan #three:checked ~ .img-3 img {
+#kerajinan #three-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-3-kerajinan-kembangturi img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#kerajinan #four:checked ~ .img-4 img {
-    clip-path: circle(150% at 0% 100%);
-}
 
-#kerajinan #five:checked ~ .img-5 img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kerajinan .gambar .sliders {
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -2787,7 +2472,7 @@ html {
     display: flex;
 }
 
-#kerajinan .gambar .sliders label {
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi label {
     height: 13px;
     width: 13px;
     border: 2px solid #fff;
@@ -2797,23 +2482,138 @@ html {
     transition: all 0.3s ease;
 }
 
-#kerajinan #one:checked ~ .sliders label.one,
-#kerajinan #two:checked ~ .sliders label.two,
-#kerajinan #three:checked ~ .sliders label.three,
-#kerajinan #four:checked ~ .sliders label.four,
-#kerajinan #five:checked ~ .sliders label.five {
+#kerajinan #one-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.one-kerajinan-kembangturi,
+#kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi,
+#kerajinan #three-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.three-kerajinan-kembangturi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
+
 }
 
-#kerajinan .sliders label:hover {
+#kerajinan .sliders-kerajinan-kembangturi label:hover {
     background: linear-gradient(135deg, #05172f, #003f6c);
+
 }
 
-#kerajinan .gambar input[type="radio"] {
+#kerajinan .gambar-kerajinan-kembangturi input[type="radio"] {
     display: none;
 }
+
+
+/* kerajinan-gongsemat */
+
+#kerajinan .kerajinan-gongsemat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    
+}
+
+
+
+#kerajinan .deskripsi-gongsemat {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 500px;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-gongsemat h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-gongsemat p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat {
+    position:   relative;
+    height: 500px;
+    width: 500px;
+    rotate: 0deg;
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-1-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #two-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-2-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.one-kerajinan-gongsemat,
+#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-gongsemat label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat input[type="radio"] {
+    display: none;
+}
+
+
 
 
  /* kuliner */
@@ -2886,7 +2686,8 @@ html {
 #kuliner .gambar-kuliner-segomenir {
     position:   relative;
     height: 400px;
-    width: 650px;
+    width: 550px;
+
     rotate: 0deg;
 
 }
@@ -2903,25 +2704,10 @@ html {
     object-fit: cover;
     clip-path: circle(0% at 0% 100%);
     transition: all 0.7s;
+    border-radius: 10px;
 }
 
 #kuliner #one-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-1-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #two-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-2-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #three-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-3-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #four-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-4-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #five-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-5-kuliner-segomenir img {
     clip-path: circle(150% at 0% 100%);
 }
 
@@ -2944,11 +2730,7 @@ html {
     transition: all 0.3s ease;
 }
 
-#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir,
-#kuliner #two-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.two-kuliner-segomenir,
-#kuliner #three-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.three-kuliner-segomenir,
-#kuliner #four-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.four-kuliner-segomenir,
-#kuliner #five-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.five-kuliner-segomenir {
+#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -3012,7 +2794,8 @@ html {
 #kuliner .gambar-kuliner-stikturi {
     position:   relative;
     height: 400px;
-    width: 650px;
+    width: 550px;
+
     rotate: 0deg;
 
 }
@@ -3029,6 +2812,7 @@ html {
     object-fit: cover;
     clip-path: circle(0% at 0% 100%);
     transition: all 0.7s;
+    border-radius: 10px;
 }
 
 #kuliner #one-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-1-kuliner-stikturi img {
@@ -3087,6 +2871,223 @@ html {
 }
 
 #kuliner .gambar-kuliner-stikturi input[type="radio"] {
+    display: none;
+}
+
+
+/* kuliner-tehkembangturi */
+
+#kuliner .kuliner-tehkembangturi{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    
+}
+
+
+
+#kuliner .deskripsi-tehkembangturi {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-tehkembangturi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-tehkembangturi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi {
+    position:   relative;
+    height: 400px;
+    width: 550px;
+
+    rotate: 0deg;
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .img-kuliner-tehkembangturi.img-1-kuliner-tehkembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .sliders-kuliner-tehkembangturi label.one-kuliner-tehkembangturi{
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-tehkembangturi label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi input[type="radio"] {
+    display: none;
+}
+
+
+/* kuliner-cookies */
+
+#kuliner .kuliner-cookies{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    
+}
+
+
+
+#kuliner .deskripsi-cookies {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-cookies h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.2em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-cookies p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-cookies {
+    position:   relative;
+    height: 400px;
+    width: 550px;
+    rotate: 0deg;
+
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .img-kuliner-cookies.img-1-kuliner-cookies img {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .sliders-kuliner-cookies label.one-kuliner-cookies{
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-cookies label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-cookies input[type="radio"] {
     display: none;
 }
 
@@ -3219,7 +3220,7 @@ nav .items .item:hover{
 }
 .gallery .image img{
     width: 100%;
-    height: 180px;
+    height: 220px;
 }
 
 
@@ -4431,13 +4432,6 @@ nav .items .item:hover{
     clip-path: circle(150% at 0% 100%);
 }
 
-#wisata-religi #four-wisata-religi:checked ~ .img-wisata-religi.img-4-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#wisata-religi #five-wisata-religi:checked ~ .img-wisata-religi.img-5-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
 
 #wisata-religi .gambar-wisata-religi .sliders-wisata-religi {
     position: absolute;
@@ -4460,9 +4454,7 @@ nav .items .item:hover{
 
 #wisata-religi #one-wisata-religi:checked ~ .sliders-wisata-religi label.one-wisata-religi,
 #wisata-religi #two-wisata-religi:checked ~ .sliders-wisata-religi label.two-wisata-religi,
-#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi,
-#wisata-religi #four-wisata-religi:checked ~ .sliders-wisata-religi label.four-wisata-religi,
-#wisata-religi #five-wisata-religi:checked ~ .sliders-wisata-religi label.five-wisata-religi {
+#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -4625,15 +4617,13 @@ nav .items .item:hover{
  /* pantai-semat */
 /*  #pantai-mbahsirah */
 /* pantai-kalibuntung  */
-/* pantai-mororejo  */
 
 
 
 
 #pantai-semat .judul,
 #pantai-mbahsirah .judul,
-#pantai-kalibuntung .judul,
-#pantai-mororejo .judul {
+#pantai-kalibuntung .judul{
 
    background: linear-gradient(135deg, #05172f, #003f6c);
    max-width: 100%;
@@ -4642,8 +4632,7 @@ nav .items .item:hover{
 
 #pantai-semat .judul h2,
 #pantai-mbahsirah .judul h2,
-#pantai-kalibuntung .judul h2,
-#pantai-mororejo .judul h2{
+#pantai-kalibuntung .judul h2{
    margin: 0;
    padding: 0;
    margin-top: 30px;
@@ -4659,8 +4648,7 @@ nav .items .item:hover{
 
 #pantai-semat .pantai-semat,
 #pantai-mbahsirah .pantai-mbahsirah,
-#pantai-kalibuntung .pantai-kalibuntung,
-#pantai-mororejo .pantai-mororejo{
+#pantai-kalibuntung .pantai-kalibuntung{
    margin: 0;
    padding: 0;
    display: flex;
@@ -4675,8 +4663,7 @@ nav .items .item:hover{
 
 #pantai-semat .deskripsi,
 #pantai-mbahsirah .deskripsi,
-#pantai-kalibuntung .deskripsi,
-#pantai-mororejo .deskripsi {
+#pantai-kalibuntung .deskripsi {
    margin: 0;
    padding: 0;
    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
@@ -4691,8 +4678,7 @@ nav .items .item:hover{
 
 #pantai-semat .deskripsi h1,
 #pantai-mbahsirah .deskripsi h1,
-#pantai-kalibuntung .deskripsi h1,
-#pantai-mororejo .deskripsi h1 {
+#pantai-kalibuntung .deskripsi h1{
    background: linear-gradient(135deg, #05172f, #003f6c);
    border-radius: 10px;
    color: #fff;
@@ -4705,8 +4691,7 @@ nav .items .item:hover{
 
 #pantai-semat .deskripsi p,
 #pantai-mbahsirah .deskripsi p,
-#pantai-kalibuntung .deskripsi p,
-#pantai-mororejo .deskripsi p {
+#pantai-kalibuntung .deskripsi p {
    color: #000;
    line-height: 1.6;
    font-size: 1.7em;
@@ -4717,8 +4702,7 @@ nav .items .item:hover{
 
 #pantai-semat .gambar-pantai-semat,
 #pantai-mbahsirah .gambar-pantai-mbahsirah,
-#pantai-kalibuntung .gambar-pantai-kalibuntung,
-#pantai-mororejo .gambar-pantai-mororejo   {
+#pantai-kalibuntung .gambar-pantai-kalibuntung{
    position: relative;
    width: 100%;
    rotate: 0deg;
@@ -4727,8 +4711,7 @@ nav .items .item:hover{
 
 #pantai-semat .gambar-pantai-semat .img-pantai-semat,
 #pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah,
-#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung,
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo {
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung{
    position: absolute;
    height: 100%;
    width: 100%;
@@ -4736,8 +4719,7 @@ nav .items .item:hover{
 
 #pantai-semat .gambar-pantai-semat .img-pantai-semat img,
 #pantai-mbahsirah .gambar-pantai-mbahsirah .img-pantai-mbahsirah img,
-#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung img,
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo img {
+#pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung img{
    height: 100%;
    width: 100%;
    object-fit: cover;
@@ -4747,43 +4729,37 @@ nav .items .item:hover{
 
 #pantai-semat #one-pantai-semat:checked ~ .img-pantai-semat.img-1-pantai-semat img,
 #pantai-mbahsirah #one-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
-#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img,
-#pantai-mororejo #one-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
+#pantai-kalibuntung #one-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img{
    clip-path: circle(150% at 0% 100%);
 }
 
 #pantai-semat #two-pantai-semat:checked ~ .img-pantai-semat.img-2-pantai-semat img,
 #pantai-mbahsirah #two-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
-#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img,
-#pantai-mororejo #two-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
+#pantai-kalibuntung #two-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img{
    clip-path: circle(150% at 0% 100%);
 }
 
 #pantai-semat #three-pantai-semat:checked ~ .img-pantai-semat.img-3-pantai-semat img,
 #pantai-mbahsirah #three-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
-#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img ,
-#pantai-mororejo #three-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
+#pantai-kalibuntung #three-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img {
    clip-path: circle(150% at 0% 100%);
 }
 
 #pantai-semat #four-pantai-semat:checked ~ .img-pantai-semat.img-4-pantai-semat img,
 #pantai-mbahsirah #four-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
-#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img,
-#pantai-mororejo #four-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img  {
+#pantai-kalibuntung #four-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img{
    clip-path: circle(150% at 0% 100%);
 }
 
 #pantai-semat #five-pantai-semat:checked ~ .img-pantai-semat.img-5-pantai-semat img,
 #pantai-mbahsirah #five-pantai-mbahsirah:checked ~ .img-pantai-mbahsirah.img-1-pantai-mbahsirah img,
-#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img ,
-#pantai-mororejo #five-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
+#pantai-kalibuntung #five-pantai-kalibuntung:checked ~ .img-pantai-kalibuntung.img-1-pantai-kalibuntung img  {
    clip-path: circle(150% at 0% 100%);
 }
 
 #pantai-semat .gambar-pantai-semat .sliders-pantai-semat,
 #pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah,
-#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung,
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo {
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung {
    position: absolute;
    bottom: 20px;
    left: 50%;
@@ -4794,8 +4770,7 @@ nav .items .item:hover{
 
 #pantai-semat .gambar-pantai-semat .sliders-pantai-semat label,
 #pantai-mbahsirah .gambar-pantai-mbahsirah .sliders-pantai-mbahsirah label,
-#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung label,
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo label {
+#pantai-kalibuntung .gambar-pantai-kalibuntung .sliders-pantai-kalibuntung label{
    height: 15px;
    width: 15px;
    border: 2px solid #fff;
@@ -4841,29 +4816,16 @@ nav .items .item:hover{
 }
 
 
-#pantai-mororejo #one-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.one-pantai-mororejo,
-#pantai-mororejo #two-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.two-pantai-mororejo,
-#pantai-mororejo #three-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.three-pantai-mororejo,
-#pantai-mororejo #four-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.four-pantai-mororejo,
-#pantai-mororejo #five-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.five-pantai-mororejo {
-   width: 35px;
-   border-radius: 14px;
-   background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
 #pantai-semat .sliders-pantai-semat label:hover,
 #pantai-mbahsirah .sliders-pantai-mbahsirah label:hover,
-#pantai-kalibuntung .sliders-pantai-kalibuntung label:hover,
-#pantai-mororejo .sliders-pantai-mororejo label:hover {
+#pantai-kalibuntung .sliders-pantai-kalibuntung label:hover {
    background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
 #pantai-semat .gambar-pantai-semat input[type="radio"],
 #pantai-mbahsirah .gambar-pantai-mbahsirah input[type="radio"],
-#pantai-kalibuntung .gambar-pantai-kalibuntung input[type="radio"],
-#pantai-mororejo .gambar-pantai-mororejo input[type="radio"] {
+#pantai-kalibuntung .gambar-pantai-kalibuntung input[type="radio"] {
    display: none;
 }
 
@@ -4873,8 +4835,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .judul-aktivitas-pantaisemat,
 #aktivitas-pantaimbahsirah .judul-aktivitas-pantaimbahsirah,
-#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung,
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo{
+#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung{
    margin: 0 auto;
    padding: 0;
    align-items: center;
@@ -4885,8 +4846,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .judul-aktivitas-pantaisemat h1,
 #aktivitas-pantaimbahsirah .judul-aktivitas-pantaimbahsirah h1,
-#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung h1,
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h1{
+#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung h1{
    margin: 0 auto;
    padding: 0;
    background: linear-gradient(135deg, #05172f, #003f6c);
@@ -4906,8 +4866,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .judul-aktivitas-pantaisemat h2,
 #aktivitas-pantaimbahsirah .judul-aktivitas-pantaimbahsirah h2,
-#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung h2,
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h2{
+#aktivitas-pantaikalibuntung .judul-aktivitas-pantaikalibuntung h2{
    font-family: 'Cinzel Decorative', serif;
    text-align: center;
    font-size: 1.8em; 
@@ -4917,16 +4876,14 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .highlight,
 #aktivitas-pantaimbahsirah .highlight,
-#aktivitas-pantaikalibuntung .highlight,
-#aktivitas-pantaimororejo .highlight {
+#aktivitas-pantaikalibuntung .highlight {
    color: #00bcd4;
 }
 
 
 #aktivitas-pantaisemat  .judul-aktivitas-pantaisemat p,
 #aktivitas-pantaimbahsirah  .judul-aktivitas-pantaimbahsirah p,
-#aktivitas-pantaikalibuntung  .judul-aktivitas-pantaikalibuntung p,
-#aktivitas-pantaimororejo  .judul-aktivitas-pantaimororejo p{
+#aktivitas-pantaikalibuntung  .judul-aktivitas-pantaikalibuntung p{
    margin: 0 auto;
    padding: 0;
    max-width: 90%;
@@ -4942,9 +4899,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icons-aktivitas-pantaisemat,
 #aktivitas-pantaimbahsirah .icons-aktivitas-pantaimbahsirah,
-#aktivitas-pantaikalibuntung .icons-aktivitas-pantaikalibuntung,
-#aktivitas-pantaimororejo .icons-aktivitas-pantaimororejo
-{
+#aktivitas-pantaikalibuntung .icons-aktivitas-pantaikalibuntung{
    margin: 0 auto;
    padding: 0;
    align-items: center;
@@ -4962,8 +4917,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icon,
 #aktivitas-pantaimbahsirah .icon,
-#aktivitas-pantaikalibuntung .icon,
-#aktivitas-pantaimororejo .icon {
+#aktivitas-pantaikalibuntung .icon{
    text-align: center;  
    height: 120px; 
    width: 85px;
@@ -4980,9 +4934,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icon:hover,
 #aktivitas-pantaimbahsirah .icon:hover,
-#aktivitas-pantaikalibuntung .icon:hover,
-#aktivitas-pantaimororejo .icon:hover
-{
+#aktivitas-pantaikalibuntung .icon:hover{
    transform: translateY(-5px);  
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
 }
@@ -4990,9 +4942,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icon img,
 #aktivitas-pantaimbahsirah .icon img,
-#aktivitas-pantaikalibuntung .icon img,
-#aktivitas-pantaimororejo .icon img
-{
+#aktivitas-pantaikalibuntung .icon img{
    width: 50px;  
    height: 50px;  
    object-fit: cover;  
@@ -5003,9 +4953,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icon h1,
 #aktivitas-pantaimbahsirah .icon h1,
-#aktivitas-pantaikalibuntung .icon h1,
-#aktivitas-pantaimororejo .icon h1
-{
+#aktivitas-pantaikalibuntung .icon h1{
    font-size: 15px;  
    margin: 0; 
 }
@@ -5014,9 +4962,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .icon.active-pantaisemat ,
 #aktivitas-pantaimbahsirah .icon.active-pantaimbahsirah ,
-#aktivitas-pantaikalibuntung .icon.active-pantaikalibuntung ,
-#aktivitas-pantaimororejo .icon.active-pantaimororejo 
-{
+#aktivitas-pantaikalibuntung .icon.active-pantaikalibuntung{
    background: #003f6c;
    color: white;
 }
@@ -5024,9 +4970,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .deskripsi-aktivitas-pantaisemat,
 #aktivitas-pantaimbahsirah .deskripsi-aktivitas-pantaimbahsirah,
-#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung,
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo
-{
+#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung{
    margin: 0 auto;
    padding: 0;
    align-items: center;
@@ -5044,9 +4988,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .deskripsi-aktivitas-pantaisemat .gambar img,
 #aktivitas-pantaimbahsirah .deskripsi-aktivitas-pantaimbahsirah .gambar img,
-#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .gambar img,
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .gambar img
-{
+#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .gambar img{
    margin: 0 auto;
    padding: 0;
    max-width: 100%;
@@ -5056,9 +4998,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .deskripsi-aktivitas-pantaisemat .deskripsi,
 #aktivitas-pantaimbahsirah .deskripsi-aktivitas-pantaimbahsirah .deskripsi,
-#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .deskripsi,
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi
-{
+#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .deskripsi{
    text-align: justify;
    height: auto;
    margin-top: 10px;
@@ -5071,9 +5011,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat .deskripsi-aktivitas-pantaisemat .deskripsi h1,
 #aktivitas-pantaimbahsirah .deskripsi-aktivitas-pantaimbahsirah .deskripsi h1,
-#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .deskripsi h1,
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi h1
-{
+#aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .deskripsi h1{
    text-align: center;
    padding: 10px;
    font-size: 2em;
@@ -5084,9 +5022,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat #activity-image-pantaisemat,
 #aktivitas-pantaimbahsirah #activity-image-pantaimbahsirah,
-#aktivitas-pantaikalibuntung #activity-image-pantaikalibuntung,
-#aktivitas-pantaimororejo #activity-image-pantaimororejo
-{
+#aktivitas-pantaikalibuntung #activity-image-pantaikalibuntung{
  
    margin: 0 auto;
    padding: 0;
@@ -5097,9 +5033,7 @@ nav .items .item:hover{
 
 #aktivitas-pantaisemat #activity-description-pantaisemat,
 #aktivitas-pantaimbahsirah #activity-description-pantaimbahsirah,
-#aktivitas-pantaikalibuntung #activity-description-pantaikalibuntung,
-#aktivitas-pantaimororejo #activity-description-pantaimororejo
-{
+#aktivitas-pantaikalibuntung #activity-description-pantaikalibuntung{
    font-size: 1.7rem;
    max-width: 100%;
    width: 100%;  
@@ -5296,8 +5230,8 @@ nav .items .item:hover{
 
   
 
- /* edukasi-batikturi */
- #edukasibatikturi .judul h2{
+ /* edukasi-batiksemat */
+ #edukasibatiksemat .judul h2{
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -5312,7 +5246,7 @@ nav .items .item:hover{
 }
  
 
- #edukasi-batikturi .edukasi-batikturi{
+ #edukasi-batiksemat .edukasi-batiksemat{
     margin: 0;
     padding: 0;
     display: flex;
@@ -5325,7 +5259,7 @@ nav .items .item:hover{
 
 
 
- #edukasibatikturi .deskripsi {
+ #edukasibatiksemat .deskripsi {
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -5337,7 +5271,7 @@ nav .items .item:hover{
     height: auto;
 }
 
- #edukasibatikturi .deskripsi h1 {
+ #edukasibatiksemat .deskripsi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
@@ -5348,7 +5282,7 @@ nav .items .item:hover{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
- #edukasibatikturi .deskripsi p {
+ #edukasibatiksemat .deskripsi p {
     color: #000;
     line-height: 1.6;
     font-size: 1.7em;
@@ -5356,20 +5290,20 @@ nav .items .item:hover{
     text-align: justify;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat {
     position: relative;
     height: 450px;
     width: 100%;
     rotate: 0deg;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi img {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -5377,27 +5311,27 @@ nav .items .item:hover{
     transition: all 0.7s;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-1-edukasi-batikturi img {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-1-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-2-edukasi-batikturi img {
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-2-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-3-edukasi-batikturi img {
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-3-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-4-edukasi-batikturi img {
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-4-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-5-edukasi-batikturi img {
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-5-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -5406,7 +5340,7 @@ nav .items .item:hover{
     display: flex;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi label {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat label {
     height: 13px;
     width: 13px;
     border: 2px solid #fff;
@@ -5416,28 +5350,28 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.one-edukasi-batikturi,
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.two-edukasi-batikturi,
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.three-edukasi-batikturi,
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.four-edukasi-batikturi,
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.five-edukasi-batikturi {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.one-edukasi-batiksemat,
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.two-edukasi-batiksemat,
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.three-edukasi-batiksemat,
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.four-edukasi-batiksemat,
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.five-edukasi-batiksemat {
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .sliders-edukasi-batikturi label:hover {
+ #edukasibatiksemat .sliders-edukasi-batiksemat label:hover {
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi input[type="radio"] {
+ #edukasibatiksemat .gambar-edukasi-batiksemat input[type="radio"] {
     display: none;
 }
 
 
-#edukasibatikturi .langkah-edukasi-batikturi {
+#edukasibatiksemat .langkah-edukasi-batiksemat {
     margin: 0;
     padding: 0;
     padding: 20px;
@@ -5455,7 +5389,7 @@ nav .items .item:hover{
 }
  
 
-#edukasibatikturi .langkah-edukasi-batikturi h1 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h1 {
     border-radius: 10px;
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     color: #000;
@@ -5469,12 +5403,12 @@ nav .items .item:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi .langkah {
+#edukasibatiksemat .langkah-edukasi-batiksemat .langkah {
     margin: 0;
     padding: 0;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi h2 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h2 {
     margin: 0;
     padding: 0;
     padding: 10px;
@@ -5490,19 +5424,19 @@ nav .items .item:hover{
     font-family: "Playfair Display", serif;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi ul {
+#edukasibatiksemat .langkah-edukasi-batiksemat ul {
     list-style-type: lower-alpha;
     margin-left: 20px;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi li {
+#edukasibatiksemat .langkah-edukasi-batiksemat li {
     margin-bottom: 10px;
     font-size: 1.7em;
 
 
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi strong {
+#edukasibatiksemat .langkah-edukasi-batiksemat strong {
     color: #d0c6e0;
 }
 
@@ -5665,15 +5599,13 @@ nav .items .item:hover{
 
 
 
+ /* kerajinan */
 
- 
- /* Kerajinan */
-
- #kerajinan .judul{
+ #kerajinan .judul {
     background: linear-gradient(135deg, #05172f, #003f6c);
     max-width: 100%;
- }
 
+ }
 
  #kerajinan .judul h2{
     margin: 0;
@@ -5689,21 +5621,21 @@ nav .items .item:hover{
 }
 
 
-#kerajinan .konten{
+#kerajinan .kerajinan-kembangturi{
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin:15px;
+    margin: 15px;
     align-items: center;
     justify-content: center;
     background: #fff;
-    rotate: 180deg;
-    font-family: "Playfair Display", serif;
 }
 
-#kerajinan .deskripsi {
+
+
+#kerajinan .deskripsi-kembangturi {
     margin: 0;
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     border-radius: 10px;
@@ -5712,20 +5644,21 @@ nav .items .item:hover{
     max-width: 100%;
     text-align: center;
     height: auto;
-    rotate: 180deg;
+    font-family: "Playfair Display", serif;
 }
 
-#kerajinan .deskripsi h1 {
+#kerajinan .deskripsi-kembangturi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2.8em;
     padding: 15px;
+    margin-bottom: 20px;
     font-family: 'Georgia', serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-#kerajinan .deskripsi p {
+#kerajinan .deskripsi-kembangturi p {
     color: #000;
     line-height: 1.6;
     font-size: 1.7em;
@@ -5734,21 +5667,21 @@ nav .items .item:hover{
     text-align: justify;
 }
 
-#kerajinan .gambar {
+#kerajinan .gambar-kerajinan-kembangturi {
     position: relative;
-    height: 800px;
     width: 100%;
-    rotate: 180deg;
+    height: 700px;
+    rotate: 0deg;
+
 }
 
-#kerajinan .gambar .img {
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi {
     position: absolute;
     height: 100%;
     width: 100%;
-    
 }
 
-#kerajinan .gambar .img img {
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -5756,28 +5689,16 @@ nav .items .item:hover{
     transition: all 0.7s;
 }
 
-
-#kerajinan #one:checked ~ .img-1 img {
+#kerajinan #one-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-1-kerajinan-kembangturi img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#kerajinan #two:checked ~ .img-2 img {
+#kerajinan #two-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-2-kerajinan-kembangturi img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#kerajinan #three:checked ~ .img-3 img {
-    clip-path: circle(150% at 0% 100%);
-}
 
-#kerajinan #four:checked ~ .img-4 img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kerajinan #five:checked ~ .img-5 img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kerajinan .gambar .sliders {
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -5786,7 +5707,7 @@ nav .items .item:hover{
     display: flex;
 }
 
-#kerajinan .gambar .sliders label {
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi label {
     height: 15px;
     width: 15px;
     border: 2px solid #fff;
@@ -5796,24 +5717,148 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
-#kerajinan #one:checked ~ .sliders label.one,
-#kerajinan #two:checked ~ .sliders label.two,
-#kerajinan #three:checked ~ .sliders label.three,
-#kerajinan #four:checked ~ .sliders label.four,
-#kerajinan #five:checked ~ .sliders label.five {
+#kerajinan #one-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.one-kerajinan-kembangturi,
+#kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
+
 }
 
-#kerajinan .sliders label:hover {
+#kerajinan .sliders-kerajinan-kembangturi label:hover {
     background: linear-gradient(135deg, #05172f, #003f6c);
+
 }
 
-#kerajinan .gambar input[type="radio"] {
+#kerajinan .gambar-kerajinan-kembangturi input[type="radio"] {
     display: none;
 }
 
+
+/* kerajinan-gongsemat */
+ 
+.kerajinan {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#kerajinan .kerajinan-gongsemat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    rotate: 180deg;
+}
+
+
+
+#kerajinan .deskripsi-gongsemat {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    rotate: 180deg;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-gongsemat h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.8em;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-gongsemat p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.7em;
+
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    rotate: 180deg;
+
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-1-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #two-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-2-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat label {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.one-kerajinan-gongsemat,
+#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-gongsemat label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat input[type="radio"] {
+    display: none;
+}
 
 
 
@@ -5888,6 +5933,7 @@ nav .items .item:hover{
 #kuliner .gambar-kuliner-segomenir {
     position: relative;
     width: 100%;
+    height: 550px;
     rotate: 0deg;
 
 }
@@ -5909,22 +5955,7 @@ nav .items .item:hover{
 #kuliner #one-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-1-kuliner-segomenir img {
     clip-path: circle(150% at 0% 100%);
 }
-
-#kuliner #two-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-2-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #three-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-3-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #four-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-4-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #five-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-5-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
+ 
 
 #kuliner .gambar-kuliner-segomenir .sliders-kuliner-segomenir {
     position: absolute;
@@ -5945,11 +5976,7 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
-#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir,
-#kuliner #two-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.two-kuliner-segomenir,
-#kuliner #three-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.three-kuliner-segomenir,
-#kuliner #four-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.four-kuliner-segomenir,
-#kuliner #five-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.five-kuliner-segomenir {
+#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir{
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -6026,6 +6053,7 @@ nav .items .item:hover{
 
 #kuliner .gambar-kuliner-stikturi {
     position: relative;
+    height: 550px;
     width: 100%;
     rotate: 180deg;
 
@@ -6050,22 +6078,7 @@ nav .items .item:hover{
     clip-path: circle(150% at 0% 100%);
 }
 
-#kuliner #two-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-2-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #three-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-3-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #four-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-4-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #five-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-5-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
+ 
 #kuliner .gambar-kuliner-stikturi .sliders-kuliner-stikturi {
     position: absolute;
     bottom: 20px;
@@ -6085,11 +6098,7 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
-#kuliner #one-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.one-kuliner-stikturi,
-#kuliner #two-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.two-kuliner-stikturi,
-#kuliner #three-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.three-kuliner-stikturi,
-#kuliner #four-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.four-kuliner-stikturi,
-#kuliner #five-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.five-kuliner-stikturi {
+#kuliner #one-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.one-kuliner-stikturi{
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -6102,6 +6111,252 @@ nav .items .item:hover{
 }
 
 #kuliner .gambar-kuliner-stikturi input[type="radio"] {
+    display: none;
+}
+
+
+
+/* kuliner-tehkembangturi */
+ 
+.kuliner {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#kuliner .kuliner-tehkembangturi{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    rotate: 0deg;
+}
+
+
+
+#kuliner .deskripsi-tehkembangturi {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    rotate:0deg;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-tehkembangturi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.8em;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-tehkembangturi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.7em;
+
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    rotate: 0deg;
+
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .img-kuliner-tehkembangturi.img-1-kuliner-tehkembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+ 
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi label {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .sliders-kuliner-tehkembangturi label.one-kuliner-tehkembangturi{
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-tehkembangturi label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi input[type="radio"] {
+    display: none;
+}
+
+
+
+/* kuliner-cookies */
+ 
+.kuliner {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#kuliner .kuliner-cookies{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    rotate: 180deg;
+}
+
+
+
+#kuliner .deskripsi-cookies {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    rotate: 180deg;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-cookies h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.8em;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-cookies p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.7em;
+
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-cookies {
+    position: relative;
+    height: 550px;
+    width: 100%;
+    rotate: 180deg;
+
+
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .img-kuliner-cookies.img-1-kuliner-cookies img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+ 
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies label {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .sliders-kuliner-cookies label.one-kuliner-cookies{
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-cookies label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-cookies input[type="radio"] {
     display: none;
 }
 
@@ -6542,11 +6797,11 @@ nav .items .item:hover{
 
 .preview-box{
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
-    max-width: 90%;
+   width: 100%;
     z-index: 5;
     opacity: 0;
     pointer-events: none;
@@ -6809,7 +7064,7 @@ nav .items .item:hover{
         border: none;
     }
 
-    .header .menu .sub-menu a{
+    .header .menu .sub-menu a {
         padding: 12px 0 12px 15px;
         font-size: 0.9em;
 
@@ -7286,13 +7541,6 @@ nav .items .item:hover{
     clip-path: circle(150% at 0% 100%);
 }
 
-#wisata-religi #four-wisata-religi:checked ~ .img-wisata-religi.img-4-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#wisata-religi #five-wisata-religi:checked ~ .img-wisata-religi.img-5-wisata-religi img {
-    clip-path: circle(150% at 0% 100%);
-}
 
 #wisata-religi .gambar-wisata-religi .sliders-wisata-religi {
     position: absolute;
@@ -7315,9 +7563,7 @@ nav .items .item:hover{
 
 #wisata-religi #one-wisata-religi:checked ~ .sliders-wisata-religi label.one-wisata-religi,
 #wisata-religi #two-wisata-religi:checked ~ .sliders-wisata-religi label.two-wisata-religi,
-#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi,
-#wisata-religi #four-wisata-religi:checked ~ .sliders-wisata-religi label.four-wisata-religi,
-#wisata-religi #five-wisata-religi:checked ~ .sliders-wisata-religi label.five-wisata-religi {
+#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -7477,8 +7723,8 @@ nav .items .item:hover{
 
 
 
- /* edukasi-batikturi */
- #edukasibatikturi .judul h2{
+ /* edukasi-batiksemat */
+ #edukasibatiksemat .judul h2{
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -7493,7 +7739,7 @@ nav .items .item:hover{
 }
  
 
- #edukasi-batikturi .edukasi-batikturi{
+ #edukasi-batiksemat .edukasi-batiksemat{
     margin: 0;
     padding: 0;
     display: flex;
@@ -7506,7 +7752,7 @@ nav .items .item:hover{
 
 
 
- #edukasibatikturi .deskripsi {
+ #edukasibatiksemat .deskripsi {
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -7518,7 +7764,7 @@ nav .items .item:hover{
     height: auto;
 }
 
- #edukasibatikturi .deskripsi h1 {
+ #edukasibatiksemat .deskripsi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
@@ -7529,27 +7775,27 @@ nav .items .item:hover{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
- #edukasibatikturi .deskripsi p {
+ #edukasibatiksemat .deskripsi p {
     color: #000;
     line-height: 1.6;
     font-size: 1em;
     text-align: justify;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat {
     position: relative;
     height: 220px;
     width: 100%;
     rotate: 0deg;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .img-edukasi-batikturi img {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .img-edukasi-batiksemat img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -7557,27 +7803,27 @@ nav .items .item:hover{
     transition: all 0.7s;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-1-edukasi-batikturi img {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-1-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-2-edukasi-batikturi img {
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-2-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-3-edukasi-batikturi img {
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-3-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-4-edukasi-batikturi img {
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-4-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .img-edukasi-batikturi.img-5-edukasi-batikturi img {
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .img-edukasi-batiksemat.img-5-edukasi-batiksemat img {
     clip-path: circle(150% at 0% 100%);
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -7586,7 +7832,7 @@ nav .items .item:hover{
     display: flex;
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi .sliders-edukasi-batikturi label {
+ #edukasibatiksemat .gambar-edukasi-batiksemat .sliders-edukasi-batiksemat label {
     height: 13px;
     width: 13px;
     border: 2px solid #fff;
@@ -7596,28 +7842,28 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
- #edukasibatikturi #one-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.one-edukasi-batikturi,
- #edukasibatikturi #two-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.two-edukasi-batikturi,
- #edukasibatikturi #three-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.three-edukasi-batikturi,
- #edukasibatikturi #four-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.four-edukasi-batikturi,
- #edukasibatikturi #five-edukasi-batikturi:checked ~ .sliders-edukasi-batikturi label.five-edukasi-batikturi {
+ #edukasibatiksemat #one-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.one-edukasi-batiksemat,
+ #edukasibatiksemat #two-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.two-edukasi-batiksemat,
+ #edukasibatiksemat #three-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.three-edukasi-batiksemat,
+ #edukasibatiksemat #four-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.four-edukasi-batiksemat,
+ #edukasibatiksemat #five-edukasi-batiksemat:checked ~ .sliders-edukasi-batiksemat label.five-edukasi-batiksemat {
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .sliders-edukasi-batikturi label:hover {
+ #edukasibatiksemat .sliders-edukasi-batiksemat label:hover {
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
- #edukasibatikturi .gambar-edukasi-batikturi input[type="radio"] {
+ #edukasibatiksemat .gambar-edukasi-batiksemat input[type="radio"] {
     display: none;
 }
 
 
-#edukasibatikturi .langkah-edukasi-batikturi {
+#edukasibatiksemat .langkah-edukasi-batiksemat {
     margin: 0;
     padding: 0;
     padding: 20px;
@@ -7635,7 +7881,7 @@ nav .items .item:hover{
 }
  
 
-#edukasibatikturi .langkah-edukasi-batikturi h1 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h1 {
     border-radius: 10px;
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     color: #000;
@@ -7649,12 +7895,12 @@ nav .items .item:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi .langkah {
+#edukasibatiksemat .langkah-edukasi-batiksemat .langkah {
     margin: 0;
     padding: 0;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi h2 {
+#edukasibatiksemat .langkah-edukasi-batiksemat h2 {
     margin: 0;
     padding: 0;
     padding: 10px;
@@ -7670,18 +7916,18 @@ nav .items .item:hover{
     font-family: "Playfair Display", serif;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi ul {
+#edukasibatiksemat .langkah-edukasi-batiksemat ul {
     list-style-type: lower-alpha;
     margin-left: 20px;
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi li {
+#edukasibatiksemat .langkah-edukasi-batiksemat li {
     margin-bottom: 10px;
     font-size: 1em;
 
 }
 
-#edukasibatikturi .langkah-edukasi-batikturi strong {
+#edukasibatiksemat .langkah-edukasi-batiksemat strong {
     color: #d0c6e0;
 }
 
@@ -8862,344 +9108,6 @@ nav .items .item:hover{
 }
 
 
-/* pantai-mororejo */
-
-
-#pantaimororejo{
-    max-width: 100%;
-}
-
-
-#pantai-mororejo .judul {
-    margin: 0 auto;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-    background: linear-gradient(135deg, #003f6c, #05172f);
-
-}
-
- 
-#pantai-mororejo .judul h2{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    margin-top: 20px;
-    font-size: 1.5em;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    padding: 20px 0; 
-}
-
-
-#pantai-mororejo .pantai-mororejo{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-}
-
-
-
-#pantai-mororejo .deskripsi {
-    margin: 0 auto;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    height: auto;
-}
-
-#pantai-mororejo .deskripsi h1 {
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1.5em;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-#pantai-mororejo .deskripsi p {
-    color: #000;
-    line-height: 1.6;
-    font-size: 1em;
-    text-align: justify;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo {
-    position: relative;
-    height: 220px;
-    width: 100%;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .img-pantai-mororejo img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    clip-path: circle(0% at 0% 100%);
-    transition: all 0.7s;
-}
-
-#pantai-mororejo #one-pantai-mororejo:checked ~ .img-pantai-mororejo.img-1-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #two-pantai-mororejo:checked ~ .img-pantai-mororejo.img-2-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #three-pantai-mororejo:checked ~ .img-pantai-mororejo.img-3-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #four-pantai-mororejo:checked ~ .img-pantai-mororejo.img-4-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo #five-pantai-mororejo:checked ~ .img-pantai-mororejo.img-5-pantai-mororejo img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 999;
-    display: flex;
-}
-
-#pantai-mororejo .gambar-pantai-mororejo .sliders-pantai-mororejo label {
-    height: 13px;
-    width: 13px;
-    border: 2px solid #fff;
-    margin: 0 3px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-#pantai-mororejo #one-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.one-pantai-mororejo,
-#pantai-mororejo #two-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.two-pantai-mororejo,
-#pantai-mororejo #three-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.three-pantai-mororejo,
-#pantai-mororejo #four-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.four-pantai-mororejo,
-#pantai-mororejo #five-pantai-mororejo:checked ~ .sliders-pantai-mororejo label.five-pantai-mororejo {
-    width: 35px;
-    border-radius: 14px;
-    background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#pantai-mororejo .sliders-pantai-mororejo label:hover {
-    background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#pantai-mororejo .gambar-pantai-mororejo input[type="radio"] {
-    display: none;
-}
-
-
-
-
-   
-/* AKTIVITAS */
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo{
-    margin: 0 auto;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-   
-}
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h1{
-    margin: 0 auto;
-    padding: 0;
-    max-width:90%;
-    margin-top: 20px;
-    font-size: 1.5em;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    padding: 20px 0;
-}
-
-#aktivitas-pantaimororejo .judul-aktivitas-pantaimororejo h2{
-    font-family: 'Cinzel Decorative', serif;
-    text-align: center;
-    font-size: 0.9em; 
-    color: #555;
-    margin-top: 10px;
-}
-
-#aktivitas-pantaimororejo .highlight {
-    color: #00bcd4;
-}
-
-
-#aktivitas-pantaimororejo  .judul-aktivitas-pantaimororejo p{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 90%;
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.7em; 
-    color: #666;
-    line-height: 1.5; 
-    
-}
-
-#aktivitas-pantaimororejo .icons-aktivitas-pantaimororejo {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;  
-    flex-wrap: nowrap; 
-    justify-content: flex-start;  
-    gap: 5px; 
-    padding: 5px;
-    overflow-x: auto; 
-    white-space: nowrap;  
-    box-sizing: border-box;  
-    max-width: 100%; 
-    margin: 0 auto;  
-    margin-top: 5px;
-}
-
- 
-#aktivitas-pantaimororejo .icon {
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;  
-    height: 70px; 
-    width: 70px; 
-    border: 2px solid #ddd;  
-    border-radius: 10px;  
-    background: #f8f8f8;  
-    padding: 5px;  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
-    transition: background 0.3s, border-color 0.3s;  
-    flex: 0 0 auto;  
-}
-
-
-#aktivitas-pantaimororejo .icon:hover {
-    transform: translateY(-5px);  
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
-}
-
- 
-#aktivitas-pantaimororejo .icon img {
-    width: 25px;  
-    height: 25px;  
-    object-fit: cover;  
-    margin-bottom: 5px;  
-    cursor: pointer;  
-    transition: transform 0.3s;  
-}
-  
-
-#aktivitas-pantaimororejo .icon h1 {
-    font-size: 10px;  
-    margin: 0; 
-}
- 
-
- 
-#aktivitas-pantaimororejo .icon.active-pantaimororejo  {
-    background: #003f6c;
-    color: white;
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo {
-    margin: 0 auto;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    max-width: 380px;
-    border-radius: 10px;
-    margin: auto;
-    justify-content: center;
-    gap: 0; 
-}
-
- 
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .gambar img {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    height: 220px;
-    
-
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi {
-    text-align: justify;
-    height: auto;
-    background: linear-gradient(135deg, #05172f, #003f6c);
-    
-
-
-}
-
-
-#aktivitas-pantaimororejo .deskripsi-aktivitas-pantaimororejo .deskripsi h1 {
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
-    color: #000;
-    background: #fff;
-}
-
-
-#aktivitas-pantaimororejo #activity-image-pantaimororejo {
-    margin: 0 auto;
-    padding: 0;
-    margin: 10px auto;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: 220px;
-}
-
-
-#aktivitas-pantaimororejo #activity-description-pantaimororejo {
-    font-size: 0.8rem;
-    line-height: 2em;
-    color: #fff;
-}
-
 
  /* Kerajinan */
 
@@ -9348,6 +9256,292 @@ nav .items .item:hover{
 
 
 
+ /* kerajinan */
+
+ #kerajinan .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+
+ }
+
+ #kerajinan .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+/* kerajinan-kembangturi */
+
+#kerajinan .kerajinan-kembangturi{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kerajinan .deskripsi-kembangturi {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-kembangturi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.6em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-kembangturi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-kembangturi {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    rotate: 0deg;
+
+}
+
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-kembangturi .img-kerajinan-kembangturi img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-1-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #two-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-2-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #three-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-3-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #four-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-4-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #five-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-5-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.one-kerajinan-kembangturi,
+#kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi,
+#kerajinan #three-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.three-kerajinan-kembangturi,
+#kerajinan #four-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.four-kerajinan-kembangturi,
+#kerajinan #five-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.five-kerajinan-kembangturi {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-kembangturi label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-kembangturi input[type="radio"] {
+    display: none;
+}
+
+
+
+ /* kerajinan-gongsemat */
+
+
+#kerajinan .kerajinan-gongsemat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    rotate: 180deg;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kerajinan .deskripsi-gongsemat {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    rotate: 180deg;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-gongsemat h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-gongsemat p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    rotate: 180deg;
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .img-kerajinan-gongsemat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-1-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #two-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-2-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #three-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-3-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #four-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-4-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #five-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-5-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.one-kerajinan-gongsemat,
+#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat,
+#kerajinan #three-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.three-kerajinan-gongsemat,
+#kerajinan #four-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.four-kerajinan-gongsemat,
+#kerajinan #five-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.five-kerajinan-gongsemat {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-gongsemat label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-gongsemat input[type="radio"] {
+    display: none;
+}
+
+
+
+
 
  /* kuliner */
 
@@ -9419,7 +9613,7 @@ nav .items .item:hover{
 #kuliner .gambar-kuliner-segomenir {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 250px;
     rotate: 0deg;
 
 }
@@ -9441,22 +9635,7 @@ nav .items .item:hover{
 #kuliner #one-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-1-kuliner-segomenir img {
     clip-path: circle(150% at 0% 100%);
 }
-
-#kuliner #two-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-2-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #three-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-3-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #four-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-4-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #five-kuliner-segomenir:checked ~ .img-kuliner-segomenir.img-5-kuliner-segomenir img {
-    clip-path: circle(150% at 0% 100%);
-}
+ 
 
 #kuliner .gambar-kuliner-segomenir .sliders-kuliner-segomenir {
     position: absolute;
@@ -9477,11 +9656,7 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
-#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir,
-#kuliner #two-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.two-kuliner-segomenir,
-#kuliner #three-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.three-kuliner-segomenir,
-#kuliner #four-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.four-kuliner-segomenir,
-#kuliner #five-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.five-kuliner-segomenir {
+#kuliner #one-kuliner-segomenir:checked ~ .sliders-kuliner-segomenir label.one-kuliner-segomenir {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -9552,7 +9727,8 @@ nav .items .item:hover{
 #kuliner .gambar-kuliner-stikturi {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 250px;
+
     rotate: 180deg;
 
 }
@@ -9574,22 +9750,7 @@ nav .items .item:hover{
 #kuliner #one-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-1-kuliner-stikturi img {
     clip-path: circle(150% at 0% 100%);
 }
-
-#kuliner #two-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-2-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #three-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-3-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #four-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-4-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#kuliner #five-kuliner-stikturi:checked ~ .img-kuliner-stikturi.img-5-kuliner-stikturi img {
-    clip-path: circle(150% at 0% 100%);
-}
+ 
 
 #kuliner .gambar-kuliner-stikturi .sliders-kuliner-stikturi {
     position: absolute;
@@ -9610,11 +9771,7 @@ nav .items .item:hover{
     transition: all 0.3s ease;
 }
 
-#kuliner #one-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.one-kuliner-stikturi,
-#kuliner #two-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.two-kuliner-stikturi,
-#kuliner #three-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.three-kuliner-stikturi,
-#kuliner #four-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.four-kuliner-stikturi,
-#kuliner #five-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.five-kuliner-stikturi {
+#kuliner #one-kuliner-stikturi:checked ~ .sliders-kuliner-stikturi label.one-kuliner-stikturi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -9629,6 +9786,271 @@ nav .items .item:hover{
 #kuliner .gambar-kuliner-stikturi input[type="radio"] {
     display: none;
 }
+
+
+
+ /* kuliner-tehkembangturi */
+
+ #kuliner .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+
+ }
+
+ #kuliner .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+#kuliner .kuliner-tehkembangturi{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kuliner .deskripsi-tehkembangturi {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-tehkembangturi h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-tehkembangturi p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi {
+    position: relative;
+    width: 100%;
+    height: 250px;
+
+    rotate: 0deg;
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .img-kuliner-tehkembangturi img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .img-kuliner-tehkembangturi.img-1-kuliner-tehkembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-tehkembangturi .sliders-kuliner-tehkembangturi label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-tehkembangturi:checked ~ .sliders-kuliner-tehkembangturi label.one-kuliner-tehkembangturi {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-tehkembangturi label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-tehkembangturi input[type="radio"] {
+    display: none;
+}
+
+
+ /* kulinerr-cookies */
+
+ #kuliner .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+
+ }
+
+ #kuliner .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+#kuliner .kuliner-cookies{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kuliner .deskripsi-cookies {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#kuliner .deskripsi-cookies h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kuliner .deskripsi-cookies p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kuliner .gambar-kuliner-cookies {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    rotate: 180deg;
+
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kuliner .gambar-kuliner-cookies .img-kuliner-cookies img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .img-kuliner-cookies.img-1-kuliner-cookies img {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kuliner .gambar-kuliner-cookies .sliders-kuliner-cookies label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kuliner #one-kuliner-cookies:checked ~ .sliders-kuliner-cookies label.one-kuliner-cookies {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .sliders-kuliner-cookies label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kuliner .gambar-kuliner-cookies input[type="radio"] {
+    display: none;
+}
+
+
+
 
 
 
@@ -10065,7 +10487,7 @@ nav .items .item:hover{
 }
 .gallery .image img{
     width: 100%;
-    height: 280px;
+    height: 250px;
 }
 
 
@@ -10079,9 +10501,8 @@ nav .items .item:hover{
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
-    max-width: 500px;
-    width: 100%;
     z-index: 5;
+    max-width: 90%;
     opacity: 0;
     pointer-events: none;
     border-radius: 5px;
