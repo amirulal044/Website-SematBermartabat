@@ -238,32 +238,32 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', () => {
     const activitiessemat = {
         berenang: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-semat/akt1.jpeg',
             title: 'Berenang',
             description: 'Nikmati Kegembiraan Berenang: Pantai Semat menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
         },
         ayunan: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-semat/akt2.jpeg',
             title: 'Ayunan',
             description: 'Ayunan di Tepi Pantai: Pantai Semat menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
         },
-        jalan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Jalan Santai',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Semat menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+        santai: {
+            image: 'pantai-semat/akt3.jpeg',
+            title: 'Bersantai',
+            description: 'Bersantai di Tepi Pantai: Pantai Semat menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
         sepeda: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-semat/akt4.jpeg',
             title: 'Sepeda',
             description: 'Jalan Santai di Tepi Pantai: Pantai Semat menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
         mancing: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-semat/akt5.jpeg',
             title: 'Mancing',
             description: ' Spot Memancing Terbaik: Pantai Semat menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
         },
         spotfoto: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-semat/akt6.jpeg',
             title: 'Spot Foto',
             description: 'Pemandangan Laut yang Menakjubkan: Pantai Semat menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
         }
@@ -305,32 +305,22 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const activitiesmbahsirah = {
         berenang: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-mbahsirah/akt1.jpeg',
             title: 'Berenang',
             description: 'Nikmati Kegembiraan Berenang: Pantai Mbah Sirah menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
         },
-        ayunan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Ayunan',
-            description: 'Ayunan di Tepi Pantai: Pantai Mbah Sirah menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
-        },
-        jalan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Jalan Santai',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Mbah Sirah menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
-        },
-        sepeda: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Sepeda',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Mbah Sirah menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+        santai: {
+            image: 'pantai-mbahsirah/akt2.jpeg',
+            title: 'Bersantai',
+            description: 'Bersantai di Tepi Pantai: Pantai Mbah Sirah menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
         mancing: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-mbahsirah/akt3.jpeg',
             title: 'Mancing',
             description: ' Spot Memancing Terbaik: Pantai Mbah Sirah menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
         },
         spotfoto: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-mbahsirah/akt4.jpeg',
             title: 'Spot Foto',
             description: 'Pemandangan Laut yang Menakjubkan: Pantai Mbah Sirah menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
         }
@@ -435,71 +425,21 @@ document.addEventListener('DOMContentLoaded', () => {
     updateActivity(defaultActivity);
 });
 
+(function() {
+    emailjs.init("uyjrin0mB6HtZX8VG"); // Ganti dengan User ID Anda
+})();
 
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Mencegah reload halaman
 
-
-/*AKTIVITAS*/
-document.addEventListener('DOMContentLoaded', () => {
-    const activitiesmororejo = {
-        berenang: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Berenang',
-            description: 'Nikmati Kegembiraan Berenang: Pantai Mororejo menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
-        },
-        ayunan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Ayunan',
-            description: 'Ayunan di Tepi Pantai: Pantai Mororejo menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
-        },
-        jalan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Jalan Santai',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Mororejo menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
-        },
-        sepeda: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Sepeda',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Mororejo menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
-        },
-        mancing: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Mancing',
-            description: ' Spot Memancing Terbaik: Pantai Mororejo menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
-        },
-        spotfoto: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Spot Foto',
-            description: 'Pemandangan Laut yang Menakjubkan: Pantai Mororejo menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
-        }
-    };
-
-    const icons = document.querySelectorAll('.icon');
-    const activityImage = document.getElementById('activity-image-pantaimororejo');
-    const activityTitle = document.getElementById('activity-title-pantaimororejo');
-    const activityDescription = document.getElementById('activity-description-pantaimororejo');
-    let activeIcon = null;
-
-    function updateActivity(activity) {
-        activityImage.src = activitiesmororejo[activity].image;
-        activityTitle.textContent = activitiesmororejo[activity].title;
-        activityDescription.textContent = activitiesmororejo[activity].description;
-
-       
-        icons.forEach(i => {
-            i.classList.remove('active-pantaimororejo');
-        });
-        activeIcon = document.querySelector(`[data-activity-pantaimororejo="${activity}"]`);
-        activeIcon.classList.add('active-pantaimororejo');
-    }
-
-    icons.forEach(icon => {
-        icon.addEventListener('click', () => {
-            const activity = icon.getAttribute('data-activity-pantaimororejo');  
-            updateActivity(activity);
-        });
+    // Kirim email
+    emailjs.sendForm("service_lehx03g", "template_lm15kst", this)
+    .then(function(response) {
+        alert("Pesan berhasil dikirim!"); // Tampilkan pesan sukses
+        document.getElementById("contactForm").reset(); // Reset form setelah pengiriman
+    }, function(error) {
+        alert("Ada masalah: " + JSON.stringify(error)); // Tampilkan pesan error
     });
-
-    // Set default activity
-    const defaultActivity = 'berenang';
-    updateActivity(defaultActivity);
 });
+
+
