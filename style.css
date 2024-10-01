@@ -622,6 +622,15 @@ html {
     text-align: justify;
 }
 
+
+#pantai-semat .deskripsi .peta-pantaisemat p {
+    color: #000;
+    line-height: 1.6;
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: justify;
+}
+
 #pantai-semat .gambar-pantai-semat {
     position: relative;
     height: 400px;
@@ -936,6 +945,16 @@ html {
     text-align: justify;
 }
 
+
+#pantai-mbahsirah .deskripsi .peta-pantaimbahsirah p {
+    color: #000;
+    line-height: 1.6;
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
 #pantai-mbahsirah .gambar-pantai-mbahsirah {
     position: relative;
     height: 400px;
@@ -1241,10 +1260,18 @@ html {
     text-align: justify;
 }
 
+#pantai-kalibuntung .deskripsi .peta-pantaikalibuntung p {
+    margin-top: 6px;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
 #pantai-kalibuntung .gambar-pantai-kalibuntung {
     position: relative;
     height: 400px;
     width: 650px;
+    rotate: 0deg;
 }
 
 #pantai-kalibuntung .gambar-pantai-kalibuntung .img-pantai-kalibuntung {
@@ -1582,6 +1609,16 @@ html {
 #wisata-religi #three-wisata-religi:checked ~ .img-wisata-religi.img-3-wisata-religi img {
     clip-path: circle(150% at 0% 100%);
 }
+
+#wisata-religi #four-wisata-religi:checked ~ .img-wisata-religi.img-4-wisata-religi img {
+    clip-path: circle(150% at 0% 100%);
+}
+#wisata-religi #five-wisata-religi:checked ~ .img-wisata-religi.img-5-wisata-religi img {
+    clip-path: circle(150% at 0% 100%);
+}
+#wisata-religi #six-wisata-religi:checked ~ .img-wisata-religi.img-6-wisata-religi img {
+    clip-path: circle(150% at 0% 100%);
+}
  
 
 #wisata-religi .gambar-wisata-religi .sliders-wisata-religi {
@@ -1605,7 +1642,10 @@ html {
 
 #wisata-religi #one-wisata-religi:checked ~ .sliders-wisata-religi label.one-wisata-religi,
 #wisata-religi #two-wisata-religi:checked ~ .sliders-wisata-religi label.two-wisata-religi,
-#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi {
+#wisata-religi #three-wisata-religi:checked ~ .sliders-wisata-religi label.three-wisata-religi,
+#wisata-religi #four-wisata-religi:checked ~ .sliders-wisata-religi label.four-wisata-religi,
+#wisata-religi #five-wisata-religi:checked ~ .sliders-wisata-religi label.five-wisata-religi,
+#wisata-religi #six-wisata-religi:checked ~ .sliders-wisata-religi label.six-wisata-religi{
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -1681,6 +1721,22 @@ html {
     text-align: justify;
 }
 
+
+#makam-mbahsirah .deskripsi .peta-makam-mbahsirah{
+    margin: 0 auto; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+#makam-mbahsirah .deskripsi .peta-makam-mbahsirah p {
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 1.6;
+    font-size: 1em;
+} 
+ 
+
 #makam-mbahsirah .gambar-makam-mbahsirah {
     position: relative;
     height: 400px;
@@ -1713,6 +1769,15 @@ html {
     clip-path: circle(150% at 0% 100%);
 }
 
+
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img {
+    clip-path: circle(150% at 0% 100%);
+}
+
 #makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah {
     position: absolute;
     bottom: 20px;
@@ -1734,7 +1799,9 @@ html {
 
 #makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
 #makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
-#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah{
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah{
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
@@ -1755,8 +1822,8 @@ html {
 
 
 
- /* makam-yikfaqirsugih */
- #makam-yikfaqirsugih .judul h2{
+ /* makam-yikfekirsugih */
+ #makam-yikfekirsugih .judul h2{
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -1771,7 +1838,7 @@ html {
 }
  
 
-#makam-yikfaqirsugih .makam-yikfaqirsugih{
+#makam-yikfekirsugih .makam-yikfekirsugih{
     margin: 0;
     padding: 0;
     display: flex;
@@ -1783,7 +1850,7 @@ html {
 
 
 
-#makam-yikfaqirsugih .deskripsi {
+#makam-yikfekirsugih .deskripsi {
     background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1794,7 +1861,7 @@ html {
     height: 400px;
 }
 
-#makam-yikfaqirsugih .deskripsi h1 {
+#makam-yikfekirsugih .deskripsi h1 {
     background: linear-gradient(135deg, #05172f, #003f6c);
     border-radius: 10px;
     color: #fff;
@@ -1805,26 +1872,44 @@ html {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-#makam-yikfaqirsugih .deskripsi p {
+#makam-yikfekirsugih .deskripsi p {
     color: #000;
     line-height: 1.6;
     font-size: 1em;
     text-align: justify;
 }
 
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih {
+
+#makam-yikfekirsugih .deskripsi .peta-makam-yikfekirsugih{
+    margin: 0 auto; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+#makam-yikfekirsugih .deskripsi .peta-makam-yikfekirsugih p {
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 1em;
+} 
+ 
+
+
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih {
     position: relative;
     height: 400px;
     width: 650px;
+    rotate: 0deg;
 }
 
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -1832,27 +1917,19 @@ html {
     transition: all 0.7s;
 }
 
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-1-makam-yikfekirsugih img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-2-makam-yikfaqirsugih img {
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-2-makam-yikfekirsugih img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-3-makam-yikfaqirsugih img {
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-3-makam-yikfekirsugih img {
     clip-path: circle(150% at 0% 100%);
 }
 
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-4-makam-yikfaqirsugih img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-5-makam-yikfaqirsugih img {
-    clip-path: circle(150% at 0% 100%);
-}
-
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -1861,7 +1938,7 @@ html {
     display: flex;
 }
 
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih label {
     height: 13px;
     width: 13px;
     border: 2px solid #fff;
@@ -1871,25 +1948,25 @@ html {
     transition: all 0.3s ease;
 }
 
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.one-makam-yikfekirsugih,
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.two-makam-yikfekirsugih,
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.three-makam-yikfekirsugih{
     width: 35px;
     border-radius: 14px;
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
-#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
+#makam-yikfekirsugih .sliders-makam-yikfekirsugih label:hover {
        background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"] {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih input[type="radio"] {
     display: none;
 }
+
+
 
 
 
@@ -2430,7 +2507,7 @@ html {
 #kerajinan .gambar-kerajinan-kembangturi {
     position:   relative;
     height: 500px;
-    width: 500px;
+    width: 550px;
     rotate: 0deg;
 
 }
@@ -2462,6 +2539,14 @@ html {
     clip-path: circle(150% at 0% 100%);
 }
 
+#kerajinan #four-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-4-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #five-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-5-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
 
 #kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi {
     position: absolute;
@@ -2484,7 +2569,9 @@ html {
 
 #kerajinan #one-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.one-kerajinan-kembangturi,
 #kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi,
-#kerajinan #three-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.three-kerajinan-kembangturi {
+#kerajinan #three-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.three-kerajinan-kembangturi,
+#kerajinan #four-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.four-kerajinan-kembangturi,
+#kerajinan #five-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.five-kerajinan-kembangturi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -2548,7 +2635,7 @@ html {
 #kerajinan .gambar-kerajinan-gongsemat {
     position:   relative;
     height: 500px;
-    width: 500px;
+    width: 550px;
     rotate: 0deg;
 
 }
@@ -2576,6 +2663,18 @@ html {
     clip-path: circle(150% at 0% 100%);
 }
 
+#kerajinan #three-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-3-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #four-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-4-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan #five-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-5-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+
 
 #kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat {
     position: absolute;
@@ -2597,7 +2696,10 @@ html {
 }
 
 #kerajinan #one-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.one-kerajinan-gongsemat,
-#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat {
+#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat,
+#kerajinan #three-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.three-kerajinan-gongsemat ,
+#kerajinan #four-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.four-kerajinan-gongsemat ,
+#kerajinan #five-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.five-kerajinan-gongsemat {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -3458,12 +3560,13 @@ nav .items .item:hover{
     flex-wrap: nowrap; 
     justify-content: flex-start;  
     gap: 5px;  
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     overflow-x: auto;  
     white-space: nowrap;  
     box-sizing: border-box; 
     max-width: 100%; 
+    height: auto;
     margin: 0 auto; 
     margin-top: 25px;
 }
@@ -3482,21 +3585,6 @@ nav .items .item:hover{
 .pengurus-item:hover {
     transform: translateY(-5px);  
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
-}
-
-.pengurus-gambar {
-    width: 100%; 
-    height: 300px;  
-    overflow: hidden;
-    margin: 0 auto 5px;  
-}
-
-.pengurus-gambar img {
-    border-radius: 20px;
-    width: 100%; 
-    height: 100%;  
-    object-fit: cover;  
-    display: block; 
 }
 
 
@@ -3522,56 +3610,6 @@ nav .items .item:hover{
     font-weight: 300;
     margin: 2px;
 }
-
-.social-buttons {
-    margin-top: 5px;
-   
-   
-}
-
-
- 
-.social-button.wa{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 35px;
-    background-color: #25D366;
-
-} 
-
-.social-button.ig{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 35px;
-    background: linear-gradient(50deg, #f8f408, #f60404, #a207b6);
-
-}
-
-.social-button {
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: center;  
-    width: 50px;  
-    height: 50px;  
-    margin: 5px;
-    padding: 0; 
-    color: white;
-    border-radius: 50%;  
-    text-decoration: none;
-    font-size: 20px;  
-    transition: background-color 0.3s, transform 0.3s;
-    text-align: center;  
-    line-height: 50px;  
-}
-
-
-.social-button:hover {
-    transform: scale(1.1);  
-}
-
- 
 
 
 /* kontak */
@@ -5053,14 +5091,14 @@ nav .items .item:hover{
 
 
 #makam-mbahsirah .judul,
-#makam-yikfaqirsugih .judul{
+#makam-yikfekirsugih .judul{
   background: linear-gradient(135deg, #05172f, #003f6c);
   max-width: 100%;
 
 }
 
 #makam-mbahsirah .judul h2,
-#makam-yikfaqirsugih .judul h2{
+#makam-yikfekirsugih .judul h2{
   margin: 0;
   padding: 0;
   margin-top: 30px;
@@ -5075,7 +5113,7 @@ nav .items .item:hover{
 
 
 #makam-mbahsirah .makam-mbahsirah,
-#makam-yikfaqirsugih .makam-yikfaqirsugih{
+#makam-yikfekirsugih .makam-yikfekirsugih{
   margin: 0;
   padding: 0;
   display: flex;
@@ -5089,7 +5127,7 @@ nav .items .item:hover{
 
 
 #makam-mbahsirah .deskripsi,
-#makam-yikfaqirsugih .deskripsi{
+#makam-yikfekirsugih .deskripsi{
    margin: 0;
   background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
   border-radius: 10px;
@@ -5102,7 +5140,7 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah .deskripsi h1,
-#makam-yikfaqirsugih .deskripsi h1 {
+#makam-yikfekirsugih .deskripsi h1 {
   background: linear-gradient(135deg, #05172f, #003f6c);
   border-radius: 10px;
   color: #fff;
@@ -5114,7 +5152,18 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah .deskripsi p,
-#makam-yikfaqirsugih .deskripsi p{
+#makam-yikfekirsugih .deskripsi p{
+   color: #000;
+   line-height: 1.6;
+   font-size: 1.7em;
+   font-family: "Playfair Display", serif;
+   text-align: justify;
+}
+
+
+
+#makam-mbahsirah .deskripsi .peta-makam-mbahsirah p,
+#makam-yikfekirsugih .deskripsi .peta-makam-yikfekirsugih p{
    color: #000;
    line-height: 1.6;
    font-size: 1.7em;
@@ -5123,7 +5172,7 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih{
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih{
   position: relative;
   width: 100%;
   rotate: 0deg;
@@ -5131,14 +5180,14 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih{
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih{
   position: absolute;
   height: 100%;
   width: 100%;
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -5147,32 +5196,30 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img,
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-1-makam-yikfekirsugih img{
   clip-path: circle(150% at 0% 100%);
 }
 
 #makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img,
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-2-makam-yikfekirsugih img{
   clip-path: circle(150% at 0% 100%);
 }
 
 #makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img,
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-3-makam-yikfekirsugih img {
   clip-path: circle(150% at 0% 100%);
 }
 
-#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img,
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img{
   clip-path: circle(150% at 0% 100%);
 }
 
-#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img,
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img{
   clip-path: circle(150% at 0% 100%);
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -5182,7 +5229,7 @@ nav .items .item:hover{
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih label {
    height: 15px;
    width: 15px;
   border: 2px solid #fff;
@@ -5204,11 +5251,9 @@ nav .items .item:hover{
 }
 
 
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.one-makam-yikfekirsugih,
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.two-makam-yikfekirsugih,
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.three-makam-yikfekirsugih{
   width: 35px;
   border-radius: 14px;
   background: linear-gradient(135deg, #05172f, #003f6c);
@@ -5218,15 +5263,18 @@ nav .items .item:hover{
 
 
 #makam-mbahsirah .sliders-makam-mbahsirah label:hover,
-#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
+#makam-yikfekirsugih .sliders-makam-yikfekirsugih label:hover {
   background: linear-gradient(135deg, #05172f, #003f6c);
 
 }
 
 #makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"],
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"]{
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih input[type="radio"]{
   display: none;
 }
+
+
+
 
   
 
@@ -5697,6 +5745,16 @@ nav .items .item:hover{
     clip-path: circle(150% at 0% 100%);
 }
 
+#kerajinan #three-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-3-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+#kerajinan #four-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-4-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+#kerajinan #five-kerajinan-kembangturi:checked ~ .img-kerajinan-kembangturi.img-5-kerajinan-kembangturi img {
+    clip-path: circle(150% at 0% 100%);
+}
+
 
 #kerajinan .gambar-kerajinan-kembangturi .sliders-kerajinan-kembangturi {
     position: absolute;
@@ -5718,7 +5776,10 @@ nav .items .item:hover{
 }
 
 #kerajinan #one-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.one-kerajinan-kembangturi,
-#kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi {
+#kerajinan #two-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.two-kerajinan-kembangturi,
+#kerajinan #three-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.three-kerajinan-kembangturi,
+#kerajinan #four-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.four-kerajinan-kembangturi,
+#kerajinan #five-kerajinan-kembangturi:checked ~ .sliders-kerajinan-kembangturi label.five-kerajinan-kembangturi {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -5824,6 +5885,15 @@ nav .items .item:hover{
     clip-path: circle(150% at 0% 100%);
 }
 
+#kerajinan #three-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-3-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+#kerajinan #four-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-4-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
+#kerajinan #five-kerajinan-gongsemat:checked ~ .img-kerajinan-gongsemat.img-5-kerajinan-gongsemat img {
+    clip-path: circle(150% at 0% 100%);
+}
 #kerajinan .gambar-kerajinan-gongsemat .sliders-kerajinan-gongsemat {
     position: absolute;
     bottom: 20px;
@@ -5844,7 +5914,10 @@ nav .items .item:hover{
 }
 
 #kerajinan #one-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.one-kerajinan-gongsemat,
-#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat {
+#kerajinan #two-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.two-kerajinan-gongsemat,
+#kerajinan #three-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.three-kerajinan-gongsemat,
+#kerajinan #four-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.four-kerajinan-gongsemat,
+#kerajinan #five-kerajinan-gongsemat:checked ~ .sliders-kerajinan-gongsemat label.five-kerajinan-gongsemat {
     width: 35px;
     border-radius: 14px;
     background: linear-gradient(135deg, #05172f, #003f6c);
@@ -6525,12 +6598,13 @@ nav .items .item:hover{
     flex-wrap: nowrap; 
     justify-content: flex-start;  
     gap: 5px;  
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     overflow-x: auto;  
     white-space: nowrap;  
     box-sizing: border-box; 
     max-width: 100%; 
+    height: auto;
     margin: 0 auto; 
     margin-top: 25px;
 }
@@ -6551,20 +6625,6 @@ nav .items .item:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
 }
 
-.pengurus-gambar {
-    width: 100%; 
-    height: 300px;  
-    overflow: hidden;
-    margin: 0 auto 5px;  
-}
-
-.pengurus-gambar img {
-    border-radius: 20px;
-    width: 100%; 
-    height: 100%;  
-    object-fit: cover;  
-    display: block; 
-}
 
 
 
@@ -6590,53 +6650,6 @@ nav .items .item:hover{
     margin: 2px;
 }
 
-.social-buttons {
-    margin-top: 5px;
-   
-   
-}
-
-
- 
-.social-button.wa{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 35px;
-    background-color: #25D366;
-
-} 
-
-.social-button.ig{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 35px;
-    background: linear-gradient(50deg, #f8f408, #f60404, #a207b6);
-
-}
-
-.social-button {
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: center;  
-    width: 50px;  
-    height: 50px;  
-    margin: 5px;
-    padding: 0; 
-    color: white;
-    border-radius: 50%;  
-    text-decoration: none;
-    font-size: 20px;  
-    transition: background-color 0.3s, transform 0.3s;
-    text-align: center;  
-    line-height: 50px;  
-}
-
-
-.social-button:hover {
-    transform: scale(1.1);  
-}
 
  
 
@@ -7581,6 +7594,202 @@ nav .items .item:hover{
 
 
 
+ /* makam-mbahsirah */
+/*  makam-yikfekirsugih */
+
+
+
+
+
+#makam-mbahsirah .judul,
+#makam-yikfekirsugih .judul{
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   max-width: 100%;
+
+}
+
+#makam-mbahsirah .judul h2,
+#makam-yikfekirsugih .judul h2{
+   margin: 0;
+   padding: 0;
+   padding: 10px;
+   margin-top: 20px;
+   font-size: 2rem;
+   font-family: "Playfair Display", serif;
+   font-weight: 700;
+   text-align: center;
+   color: #fff;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+   padding: 20px 0;
+}
+
+
+#makam-mbahsirah .makam-mbahsirah,
+#makam-yikfekirsugih .makam-yikfekirsugih{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   background: #fff;
+}
+
+
+
+#makam-mbahsirah .deskripsi,
+#makam-yikfekirsugih .deskripsi{
+    margin: 0;
+    padding: 0;
+   background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   max-width: 100%;
+   text-align: center;
+   height: auto;
+   font-family: "Playfair Display", serif;
+}
+
+#makam-mbahsirah .deskripsi h1,
+#makam-yikfekirsugih .deskripsi h1 {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+   border-radius: 10px;
+   color: #fff;
+   font-size: 1.4em;
+   padding: 5px;
+   margin-bottom: 20px;
+   font-family: 'Georgia', serif;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#makam-mbahsirah .deskripsi p,
+#makam-yikfekirsugih .deskripsi p{
+   color: #000;
+   line-height: 1.6;
+   font-size: 1em;
+   font-family: "Playfair Display", serif;
+   text-align: justify;
+}
+
+
+#makam-mbahsirah .deskripsi .peta-makam-mbahsirah p,
+#makam-yikfekirsugih .deskripsi .peta-makam-yikfekirsugih p{
+   color: #000;
+   line-height: 1.6;
+   font-size: 1em;
+   font-family: "Playfair Display", serif;
+   text-align: justify;
+}
+
+
+#makam-mbahsirah .gambar-makam-mbahsirah,
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih{
+   position: relative;
+   width: 100%;
+   height: 220px;
+   rotate: 0deg;
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah,
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img,
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .img-makam-yikfekirsugih img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   clip-path: circle(0% at 0% 100%);
+   transition: all 0.7s;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img,
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-1-makam-yikfekirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img,
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-2-makam-yikfekirsugih img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img,
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .img-makam-yikfekirsugih.img-3-makam-yikfekirsugih img {
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img{
+   clip-path: circle(150% at 0% 100%);
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah,
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%);
+   z-index: 999;
+   display: flex;
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label,
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih .sliders-makam-yikfekirsugih label {
+   height: 13px;
+   width: 13px;
+   border: 2px solid #fff;
+   margin: 0 3px;
+   cursor: pointer;
+   border-radius: 50%;
+   transition: all 0.3s ease;
+}
+
+#makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
+#makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
+#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
+#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
+#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+#makam-yikfekirsugih #one-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.one-makam-yikfekirsugih,
+#makam-yikfekirsugih #two-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.two-makam-yikfekirsugih,
+#makam-yikfekirsugih #three-makam-yikfekirsugih:checked ~ .sliders-makam-yikfekirsugih label.three-makam-yikfekirsugih{
+   width: 35px;
+   border-radius: 14px;
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+
+
+#makam-mbahsirah .sliders-makam-mbahsirah label:hover,
+#makam-yikfekirsugih .sliders-makam-yikfekirsugih label:hover {
+   background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"],
+#makam-yikfekirsugih .gambar-makam-yikfekirsugih input[type="radio"]{
+   display: none;
+}
+
+   
+
+
 /* wisata edukasi */
 #wisata-edukasi {
     margin: 0;
@@ -8394,7 +8603,7 @@ nav .items .item:hover{
     text-align: justify;
     height: auto;
     background: linear-gradient(135deg, #05172f, #003f6c);
-    
+    margin-top: 0;
 
 
 }
@@ -8410,9 +8619,8 @@ nav .items .item:hover{
 
 
 #aktivitas-pantaisemat #activity-image-pantaisemat {
-    margin: 0 auto;
-    padding: 0;
-    margin: 10px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -8733,6 +8941,7 @@ nav .items .item:hover{
     text-align: justify;
     height: auto;
     background: linear-gradient(135deg, #05172f, #003f6c);
+    margin-top: 0;
     
 
 
@@ -8745,13 +8954,13 @@ nav .items .item:hover{
     font-size: 1.5em;
     color: #000;
     background: #fff;
+
 }
 
 
 #aktivitas-pantaimbahsirah #activity-image-pantaimbahsirah {
-    margin: 0 auto;
-    padding: 0;
-    margin: 10px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -9054,7 +9263,6 @@ nav .items .item:hover{
     display: flex;
     max-width: 380px;
     border-radius: 10px;
-    margin: auto;
     justify-content: center;
     gap: 0; 
 }
@@ -9072,9 +9280,11 @@ nav .items .item:hover{
 
 
 #aktivitas-pantaikalibuntung .deskripsi-aktivitas-pantaikalibuntung .deskripsi {
+    
     text-align: justify;
     height: auto;
     background: linear-gradient(135deg, #05172f, #003f6c);
+    margin-top: 0;
     
 
 
@@ -9091,9 +9301,8 @@ nav .items .item:hover{
 
 
 #aktivitas-pantaikalibuntung #activity-image-pantaikalibuntung {
-    margin: 0 auto;
-    padding: 0;
-    margin: 10px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -10219,12 +10428,13 @@ nav .items .item:hover{
     flex-wrap: nowrap; 
     justify-content: flex-start;  
     gap: 5px;  
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     overflow-x: auto;  
     white-space: nowrap;  
     box-sizing: border-box; 
     max-width: 100%; 
+    height: auto;
     margin: 0 auto; 
     margin-top: 25px;
 }
@@ -10245,20 +10455,6 @@ nav .items .item:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
 }
 
-.pengurus-gambar {
-    width: 100%; 
-    height: 250px;  
-    overflow: hidden;
-    margin: 0 auto 5px;  
-}
-
-.pengurus-gambar img {
-    border-radius: 20px;
-    width: 100%; 
-    height: 100%;  
-    object-fit: cover;  
-    display: block; 
-}
 
 
 
@@ -10283,56 +10479,7 @@ nav .items .item:hover{
     font-weight: 300;
     margin: 2px;
 }
-
-.social-buttons {
-    margin-top: 5px;
-   
-   
-}
-
-
  
-.social-button.wa{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 25px;
-    background-color: #25D366;
-
-} 
-
-.social-button.ig{
-    margin: 0;
-    margin: 10px;
-    color: #fff;
-    font-size: 25px;
-    background: linear-gradient(50deg, #f8f408, #f60404, #a207b6);
-
-}
-
-.social-button {
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: center;  
-    width: 50px;  
-    height: 50px;  
-    margin: 5px;
-    padding: 0; 
-    color: white;
-    border-radius: 50%;  
-    text-decoration: none;
-    font-size: 20px;  
-    transition: background-color 0.3s, transform 0.3s;
-    text-align: center;  
-    line-height: 50px;  
-}
-
-
-.social-button:hover {
-    transform: scale(1.1);  
-}
-
-    
 
 
  /* Gallery */
@@ -10623,193 +10770,6 @@ nav .items .item:hover{
 
 
 
- /* makam-mbahsirah */
-/*  makam-yikfaqirsugih */
-
-
-
-
-
-#makam-mbahsirah .judul,
-#makam-yikfaqirsugih .judul{
-   background: linear-gradient(135deg, #05172f, #003f6c);
-   max-width: 100%;
-
-}
-
-#makam-mbahsirah .judul h2,
-#makam-yikfaqirsugih .judul h2{
-   margin: 0;
-   padding: 0;
-   padding: 10px;
-   margin-top: 20px;
-   font-size: 2rem;
-   font-family: "Playfair Display", serif;
-   font-weight: 700;
-   text-align: center;
-   color: #fff;
-   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-   padding: 20px 0;
-}
-
-
-#makam-mbahsirah .makam-mbahsirah,
-#makam-yikfaqirsugih .makam-yikfaqirsugih{
-   margin: 0;
-   padding: 0;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   align-items: center;
-   justify-content: center;
-   background: #fff;
-}
-
-
-
-#makam-mbahsirah .deskripsi,
-#makam-yikfaqirsugih .deskripsi{
-    margin: 0;
-    padding: 0;
-   background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
-   border-radius: 10px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   padding: 20px;
-   max-width: 100%;
-   text-align: center;
-   height: auto;
-   font-family: "Playfair Display", serif;
-}
-
-#makam-mbahsirah .deskripsi h1,
-#makam-yikfaqirsugih .deskripsi h1 {
-   background: linear-gradient(135deg, #05172f, #003f6c);
-   border-radius: 10px;
-   color: #fff;
-   font-size: 1.4em;
-   padding: 5px;
-   margin-bottom: 20px;
-   font-family: 'Georgia', serif;
-   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-#makam-mbahsirah .deskripsi p,
-#makam-yikfaqirsugih .deskripsi p{
-   color: #000;
-   line-height: 1.6;
-   font-size: 1em;
-   font-family: "Playfair Display", serif;
-   text-align: justify;
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih{
-   position: relative;
-   width: 100%;
-   height: 220px;
-   rotate: 0deg;
-
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah .img-makam-mbahsirah img,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .img-makam-yikfaqirsugih img {
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
-   clip-path: circle(0% at 0% 100%);
-   transition: all 0.7s;
-}
-
-#makam-mbahsirah #one-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-1-makam-mbahsirah img,
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
-   clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah #two-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-2-makam-mbahsirah img,
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img{
-   clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah #three-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-3-makam-mbahsirah img,
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
-   clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah #four-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-4-makam-mbahsirah img,
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
-   clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah #five-makam-mbahsirah:checked ~ .img-makam-mbahsirah.img-5-makam-mbahsirah img,
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .img-makam-yikfaqirsugih.img-1-makam-yikfaqirsugih img {
-   clip-path: circle(150% at 0% 100%);
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih {
-   position: absolute;
-   bottom: 20px;
-   left: 50%;
-   transform: translate(-50%);
-   z-index: 999;
-   display: flex;
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah .sliders-makam-mbahsirah label,
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label {
-   height: 13px;
-   width: 13px;
-   border: 2px solid #fff;
-   margin: 0 3px;
-   cursor: pointer;
-   border-radius: 50%;
-   transition: all 0.3s ease;
-}
-
-#makam-mbahsirah #one-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.one-makam-mbahsirah,
-#makam-mbahsirah #two-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.two-makam-mbahsirah,
-#makam-mbahsirah #three-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.three-makam-mbahsirah,
-#makam-mbahsirah #four-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.four-makam-mbahsirah,
-#makam-mbahsirah #five-makam-mbahsirah:checked ~ .sliders-makam-mbahsirah label.five-makam-mbahsirah {
-   width: 35px;
-   border-radius: 14px;
-   background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-
-#makam-yikfaqirsugih #one-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.one-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #two-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.two-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #three-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.three-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #four-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.four-makam-yikfaqirsugih,
-#makam-yikfaqirsugih #five-makam-yikfaqirsugih:checked ~ .sliders-makam-yikfaqirsugih label.five-makam-yikfaqirsugih {
-   width: 35px;
-   border-radius: 14px;
-   background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-
-
-#makam-mbahsirah .sliders-makam-mbahsirah label:hover,
-#makam-yikfaqirsugih .sliders-makam-yikfaqirsugih label:hover {
-   background: linear-gradient(135deg, #05172f, #003f6c);
-
-}
-
-#makam-mbahsirah .gambar-makam-mbahsirah input[type="radio"],
-#makam-yikfaqirsugih .gambar-makam-yikfaqirsugih input[type="radio"]{
-   display: none;
-}
-
-   
     
 }
     
