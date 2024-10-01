@@ -238,32 +238,32 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', () => {
     const activitiessemat = {
         berenang: {
-            image: 'pantai-semat/akt1.jpeg',
+            image: 'pantai-semat/pantaisemat6.jpeg',
             title: 'Berenang',
             description: 'Nikmati Kegembiraan Berenang: Pantai Semat menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
         },
         ayunan: {
-            image: 'pantai-semat/akt2.jpeg',
+            image: 'pantai-semat/pantaisemat7.jpeg',
             title: 'Ayunan',
             description: 'Ayunan di Tepi Pantai: Pantai Semat menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
         },
         santai: {
-            image: 'pantai-semat/akt3.jpeg',
+            image: 'pantai-semat/pantaisemat8.jpeg',
             title: 'Bersantai',
             description: 'Bersantai di Tepi Pantai: Pantai Semat menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
         sepeda: {
-            image: 'pantai-semat/akt4.jpeg',
+            image: 'pantai-semat/pantaisemat9.jpeg',
             title: 'Sepeda',
             description: 'Jalan Santai di Tepi Pantai: Pantai Semat menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
         mancing: {
-            image: 'pantai-semat/akt5.jpeg',
+            image: 'pantai-semat/pantaisemat10.jpeg',
             title: 'Mancing',
             description: ' Spot Memancing Terbaik: Pantai Semat menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
         },
         spotfoto: {
-            image: 'pantai-semat/akt6.jpeg',
+            image: 'pantai-semat/pantaisemat11.jpeg',
             title: 'Spot Foto',
             description: 'Pemandangan Laut yang Menakjubkan: Pantai Semat menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
         }
@@ -304,15 +304,26 @@ document.addEventListener('DOMContentLoaded', () => {
 /*AKTIVITAS*/
 document.addEventListener('DOMContentLoaded', () => {
     const activitiesmbahsirah = {
-        berenang: {
-            image: 'pantai-mbahsirah/akt1.jpeg',
-            title: 'Berenang',
-            description: 'Nikmati Kegembiraan Berenang: Pantai Mbah Sirah menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
+        bermainair: {
+            image: 'pantai-mbahsirah/pantaimbahsirah1.jpg',
+            title: 'Bermain Air',
+            description: 'Nikmati Kegembiraan Bermain Air di Pantai Mbah Sirah yang menawarkan air laut yang jernih dan menyegarkan, sempurna untuk bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda bermain air di ombak yang tenang dan bersih.'
         },
-        santai: {
-            image: 'pantai-mbahsirah/akt2.jpeg',
+        bersantai: {
+            image: 'pantai-mbahsirah/pantaimbahsirah3.jpg',
             title: 'Bersantai',
-            description: 'Bersantai di Tepi Pantai: Pantai Mbah Sirah menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+            description: 'Bersantai di Pantai Mbah Sirah, Desa Semat, Jepara, adalah cara sempurna untuk menikmati keindahan alam yang tenang dan asri. Dengan deburan ombak yang lembut dan suasana pantai yang damai, pengunjung dapat melepas penat sambil menikmati panorama laut yang memukau. Pantai ini menawarkan tempat ideal untuk beristirahat sejenak dari rutinitas dan merasakan ketenangan khas pesisir Jepara.'
+        },
+        kuliner: {
+            image: 'pantai-mbahsirah/pantaimbahsirah6.jpg',
+            title: 'Kuliner',
+            description: 'Kuliner di Pantai Mbah Sirah, Desa Semat, Jepara, menawarkan beragam hidangan lezat dari kios-kios  di sepanjang pantai. Pengunjung bisa menikmati makanan khas Jepara sambil menikmati keindahan alam. Tempat ini cocok bagi pencinta kuliner yang ingin bersantai di tepi pantai sambil mencicipi kelezatan lokal.'
+        },
+
+        ziarah: {
+            image: 'makam-mbahsirah/makam-mbahsirah1.jpg',
+            title: 'Ziarah',
+            description: 'Ziarah ke Makam Mbah Sirah di Pantai Mbah Sirah, Desa Semat, Jepara, menawarkan pengalaman spiritual yang unik di tepi laut. Di sini, pengunjung bisa merasakan kedamaian sambil merenungi sejarah dan spiritualitas, ditemani oleh suara ombak dan keindahan alam pantai. Tempat ini menjadi tujuan ziarah yang memberikan ketenangan batin sekaligus keindahan pesisir yang memukau.'
         },
         mancing: {
             image: 'pantai-mbahsirah/akt3.jpeg',
@@ -320,9 +331,9 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ' Spot Memancing Terbaik: Pantai Mbah Sirah menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
         },
         spotfoto: {
-            image: 'pantai-mbahsirah/akt4.jpeg',
+            image: 'pantai-mbahsirah/pantaimbahsirah5.jpg',
             title: 'Spot Foto',
-            description: 'Pemandangan Laut yang Menakjubkan: Pantai Mbah Sirah menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
+            description: 'Pemandangan Laut yang Menakjubkan di Pantai Mbah Sirah menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
         }
     };
 
@@ -353,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Set default activity
-    const defaultActivity = 'berenang';
+    const defaultActivity = 'bermainair';
     updateActivity(defaultActivity);
 });
 
@@ -362,35 +373,35 @@ document.addEventListener('DOMContentLoaded', () => {
 /*AKTIVITAS*/
 document.addEventListener('DOMContentLoaded', () => {
     const activitieskalibuntung = {
-        berenang: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Berenang',
-            description: 'Nikmati Kegembiraan Berenang: Pantai Kalibuntung menawarkan air laut yang jernih dan menyegarkan, sempurna untuk berenang dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda berenang di ombak yang tenang dan bersih.'
+        bersantai: {
+            image: 'pantai-kalibuntung/pantaikalibuntung2.jpg',
+            title: 'Bersantai',
+            description: 'Nikmati bersantai di Pantai Kalibuntung yang menawarkan air laut yang jernih dan menyegarkan, sempurna untuk bersaintai dan bermain air bersama keluarga dan teman-teman. Rasakan ketenangan dan kebahagiaan saat Anda bersantai di ombak yang tenang dan bersih.'
         },
         ayunan: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-kalibuntung/pantaikalibuntung9.jpg',
             title: 'Ayunan',
-            description: 'Ayunan di Tepi Pantai: Pantai Kalibuntung menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
+            description: 'Ayunan di Tepi Pantai Kalibuntung menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
         },
-        jalan: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Jalan Santai',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Kalibuntung menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+        kemah: {
+            image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
+            title: 'Berkemah',
+            description: 'Berkemah di Spot Camp Pantai Kalibuntung menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
         },
-        sepeda: {
-            image: 'wisata-alam/pantai-1.jpg',
-            title: 'Sepeda',
-            description: 'Jalan Santai di Tepi Pantai: Pantai Kalibuntung menawarkan pengalaman yang tenang dan menyegarkan dengan berjalan kaki di sepanjang garis pantai. Nikmati pasir putih yang lembut di bawah kaki Anda dan deburan ombak yang menenangkan. Jalan santai di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+        kuliner: {
+            image: 'pantai-kalibuntung/pantaikalibuntung10.jpg',
+            title: 'Kuliner',
+            description: 'Kuliner di Pantai Kalibuntung, Desa Semat, Jepara, menawarkan beragam hidangan lezat dari kios-kios yang ramai di sepanjang pantai. Pengunjung bisa menikmati makanan khas Jepara sambil menikmati keindahan alam. Tempat ini cocok bagi pencinta kuliner yang ingin bersantai di tepi pantai sambil mencicipi kelezatan lokal.'
         },
         mancing: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-kalibuntung/pantaikalibuntung11.jpg',
             title: 'Mancing',
-            description: ' Spot Memancing Terbaik: Pantai Kalibuntung menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
+            description: ' Spot Memancing Terbaik di Pantai Kalibuntung menawarkan spot-spot memancing yang strategis dan kaya ikan. Dari bibir pantai yang landai hingga area perairan yang lebih dalam, Anda akan menemukan berbagai jenis ikan yang siap menyambut umpan Anda. Nikmati kesempatan untuk menangkap ikan-ikan lokal yang lezat dan berharga sebagai hasil dari usaha Anda.'
         },
         spotfoto: {
-            image: 'wisata-alam/pantai-1.jpg',
+            image: 'pantai-kalibuntung/pantaikalibuntung6.jpg',
             title: 'Spot Foto',
-            description: 'Pemandangan Laut yang Menakjubkan: Pantai Kalibuntung menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
+            description: 'Pemandangan Laut yang Menakjubkan di Pantai Kalibuntung menawarkan pemandangan laut yang spektakuler, ideal untuk foto-foto yang memukau. Dari cakrawala yang membentang luas hingga warna-warni matahari terbenam, setiap sudut pantai ini memberikan latar belakang yang sempurna untuk foto-foto indah. Ambil gambar saat matahari terbenam atau matahari terbit untuk hasil yang menakjubkan dan penuh warna.'
         }
     };
 
@@ -421,7 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Set default activity
-    const defaultActivity = 'berenang';
+    const defaultActivity = 'bersantai';
     updateActivity(defaultActivity);
 });
 
