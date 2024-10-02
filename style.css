@@ -2450,6 +2450,7 @@ html {
     margin: 0;
     padding: 0;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 5rem;
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -2483,7 +2484,7 @@ html {
     max-width: 500px;
     margin: 20px;
     text-align: center;
-    height: 500px;
+    height: 520px;
     font-family: "Playfair Display", serif;
 }
 
@@ -2506,7 +2507,7 @@ html {
 
 #kerajinan .gambar-kerajinan-kembangturi {
     position:   relative;
-    height: 500px;
+    height: 520px;
     width: 550px;
     rotate: 0deg;
 
@@ -2611,7 +2612,7 @@ html {
     max-width: 500px;
     margin: 20px;
     text-align: center;
-    height: 500px;
+    height: 520px;
     font-family: "Playfair Display", serif;
 }
 
@@ -2634,7 +2635,7 @@ html {
 
 #kerajinan .gambar-kerajinan-gongsemat {
     position:   relative;
-    height: 500px;
+    height: 520px;
     width: 550px;
     rotate: 0deg;
 
@@ -5856,7 +5857,7 @@ nav .items .item:hover{
 
 #kerajinan .gambar-kerajinan-gongsemat {
     position: relative;
-    height: 600px;
+    height: 700px;
     width: 100%;
     rotate: 180deg;
 
