@@ -247,6 +247,11 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Ayunan',
             description: 'Ayunan di Tepi Pantai: Pantai Semat menawarkan pengalaman unik bermain ayunan dengan pemandangan laut yang memukau. Nikmati hembusan angin laut yang menyegarkan sambil berayun-ayun di bawah pohon kelapa yang rindang. Ini adalah cara sempurna untuk bersantai dan menikmati alam.'
         },
+        kemah: {
+            image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
+            title: 'Berkemah',
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+        },
         santai: {
             image: 'pantai-semat/pantaisemat8.jpeg',
             title: 'Bersantai',
@@ -319,6 +324,12 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Kuliner',
             description: 'Kuliner di Pantai Mbah Sirah, Desa Semat, Jepara, menawarkan beragam hidangan lezat dari kios-kios  di sepanjang pantai. Pengunjung bisa menikmati makanan khas Jepara sambil menikmati keindahan alam. Tempat ini cocok bagi pencinta kuliner yang ingin bersantai di tepi pantai sambil mencicipi kelezatan lokal.'
         },
+        kemah: {
+            image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
+            title: 'Berkemah',
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+
+        },
 
         ziarah: {
             image: 'makam-mbahsirah/makam-mbahsirah1.jpg',
@@ -386,7 +397,8 @@ document.addEventListener('DOMContentLoaded', () => {
         kemah: {
             image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
             title: 'Berkemah',
-            description: 'Berkemah di Spot Camp Pantai Kalibuntung menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda.'
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+
         },
         kuliner: {
             image: 'pantai-kalibuntung/pantaikalibuntung10.jpg',

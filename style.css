@@ -2837,6 +2837,172 @@ html {
 }
 
 
+/* suvenir-semat */
+
+#kerajinan .judul {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    max-width: 100%;
+    
+
+ }
+
+ #kerajinan .judul h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+#kerajinan .kerajinan-suvenir-kaos-semat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    rotate: 0deg
+}
+#kerajinan .kerajinan-suvenir-gantungan-kunci
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    
+}
+
+
+
+#kerajinan .deskripsi-suvenir-kaos-semat{
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+    font-family: "Playfair Display", serif;
+    rotate: 0deg;
+}
+#kerajinan .deskripsi-suvenir-gantungan-kunci
+ {
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat h1,
+#kerajinan .deskripsi-suvenir-gantungan-kunci h1
+ {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat p,
+#kerajinan .deskripsi-suvenir-gantungan-kunci p{
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci
+ {
+    position:   relative;
+    height: 400px;
+    width: 550px;
+    rotate: 0deg;
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .img-kerajinan-suvenir-gantungan-kunci{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat img,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .img-kerajinan-suvenir-gantungan-kunci img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .img-kerajinan-suvenir-kaos-semat.img-1-kerajinan-suvenir-kaos-semat img,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .img-kerajinan-suvenir-gantungan-kunci.img-1-kerajinan-suvenir-gantungan-kunci img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat label,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci label {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .sliders-kerajinan-suvenir-kaos-semat label.one-kerajinan-suvenir-kaos-semat,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .sliders-kerajinan-suvenir-gantungan-kunci label.one-kerajinan-suvenir-gantungan-kunci {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-suvenir-kaos-semat label:hover,
+#kerajinan .sliders-kerajinan-suvenir-gantungan-kunci label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat input[type="radio"],
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci input[type="radio"] {
+    display: none;
+}
+
+
+
  /* kuliner */
 
 
@@ -6230,6 +6396,159 @@ nav .items .item:hover{
 #kerajinan .gambar-kerajinan-kerang input[type="radio"] {
     display: none;
 }
+
+
+/* suvenir-kaos-semat */
+#kerajinan .kerajinan-suvenir-kaos-semat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    rotate: 180deg
+}
+#kerajinan .kerajinan-suvenir-gantungan-kunci
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kerajinan .deskripsi-suvenir-kaos-semat{
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    rotate: 180deg;
+    font-family: "Playfair Display", serif;
+}
+#kerajinan .deskripsi-suvenir-gantungan-kunci
+ {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat h1,
+#kerajinan .deskripsi-suvenir-gantungan-kunci h1 {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.8em;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat p,
+#kerajinan .deskripsi-suvenir-gantungan-kunci p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1.7em;
+
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    rotate: 180deg;
+}
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    rotate: 0deg;
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .img-kerajinan-suvenir-gantungan-kunci {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat img,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .img-kerajinan-suvenir-gantungan-kunci img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .img-kerajinan-suvenir-kaos-semat.img-1-kerajinan-suvenir-kaos-semat img,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .img-kerajinan-suvenir-gantungan-kunci.img-1-kerajinan-suvenir-gantungan-kunci img {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat label,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci label {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .sliders-kerajinan-suvenir-kaos-semat label.one-kerajinan-suvenir-kaos-semat,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .sliders-kerajinan-suvenir-gantungan-kunci label.one-kerajinan-suvenir-gantungan-kunci {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-suvenir-kaos-semat label:hover,
+#kerajinan .sliders-kerajinan-suvenir-gantungan-kunci label:hover {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat input[type="radio"],
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci input[type="radio"] {
+    display: none;
+}
+
 
 
  /* kuliner */
@@ -10223,6 +10542,151 @@ nav .items .item:hover{
 #kerajinan .gambar-kerajinan-kerang input[type="radio"] {
     display: none;
 }
+
+/* suvenir */
+
+#kerajinan .kerajinan-suvenir-kaos-semat,
+#kerajinan .kerajinan-suvenir-gantungan-kunci
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+#kerajinan .deskripsi-suvenir-kaos-semat,
+#kerajinan .deskripsi-suvenir-gantungan-kunci
+ {
+    margin: 0;
+    background: linear-gradient(135deg, #f0e6f6, #d0c6e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat h1,
+#kerajinan .deskripsi-suvenir-gantungan-kunci h1
+ {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#kerajinan .deskripsi-suvenir-kaos-semat p,
+#kerajinan .deskripsi-suvenir-gantungan-kunci p
+ {
+    color: #000;
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    rotate: 180deg;
+}
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci
+ {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    rotate: 0deg;
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    rotate: 0deg;
+}
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-gantungan-kunci
+ {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .img-kerajinan-suvenir-kaos-semat img,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .img-kerajinan-suvenir-gantungan-kunci img
+ {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .img-kerajinan-suvenir-kaos-semat.img-1-kerajinan-suvenir-kaos-semat img,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .img-kerajinan-suvenir-gantungan-kunci.img-1-kerajinan-suvenir-gantungan-kunci img
+ {
+    clip-path: circle(150% at 0% 100%);
+}
+ 
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    display: flex;
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat .sliders-kerajinan-suvenir-kaos-semat label,
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci .sliders-kerajinan-suvenir-gantungan-kunci label
+ {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#kerajinan #one-kerajinan-suvenir-kaos-semat:checked ~ .sliders-kerajinan-suvenir-kaos-semat label.one-kerajinan-suvenir-kaos-semat,
+#kerajinan #one-kerajinan-suvenir-gantungan-kunci:checked ~ .sliders-kerajinan-suvenir-gantungan-kunci label.one-kerajinan-suvenir-gantungan-kunci
+ {
+    width: 35px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .sliders-kerajinan-suvenir-kaos-semat label:hover,
+#kerajinan .sliders-kerajinan-suvenir-gantungan-kunci label:hover
+ {
+    background: linear-gradient(135deg, #05172f, #003f6c);
+
+}
+
+#kerajinan .gambar-kerajinan-suvenir-kaos-semat input[type="radio"],
+#kerajinan .gambar-kerajinan-suvenir-gantungan-kunci input[type="radio"]
+ {
+    display: none;
+}
+
 
 
  /* kuliner */
