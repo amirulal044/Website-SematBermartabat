@@ -250,7 +250,13 @@ document.addEventListener('DOMContentLoaded', () => {
         kemah: {
             image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
             title: 'Berkemah',
-            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp. 50.000 - 300.000 per malam.'
+        },
+        outbond: {
+            image: 'pantai-semat/outbond.jpeg',
+            title: 'Outbond',
+            description: 'Outbound Pantai Semat menghadirkan tiga jam penuh keseruan yang memadukan tawa, tantangan, dan kebersamaan, dengan harga Rp50.000/orang untuk kelompok kecil (3–9 orang), serta paket anak-anak seharga Rp40.000/orang untuk kelompok kecil dan Rp35.000/orang untuk kelompok besar, menjadikan setiap momen di sini pengalaman seru yang menyatu dengan alam.'
+
         },
         santai: {
             image: 'pantai-semat/pantaisemat8.jpeg',
@@ -327,7 +333,14 @@ document.addEventListener('DOMContentLoaded', () => {
         kemah: {
             image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
             title: 'Berkemah',
-            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp. 50.000 - 300.000 per malam.'
+
+        },
+
+        outbond: {
+            image: 'pantai-semat/outbond.jpeg',
+            title: 'Outbond',
+            description: 'Outbound Pantai Semat menghadirkan tiga jam penuh keseruan yang memadukan tawa, tantangan, dan kebersamaan, dengan harga Rp50.000/orang untuk kelompok kecil (3–9 orang), serta paket anak-anak seharga Rp40.000/orang untuk kelompok kecil dan Rp35.000/orang untuk kelompok besar, menjadikan setiap momen di sini pengalaman seru yang menyatu dengan alam.'
 
         },
 
@@ -397,9 +410,16 @@ document.addEventListener('DOMContentLoaded', () => {
         kemah: {
             image: 'pantai-kalibuntung/pantaikalibuntung8.jpg',
             title: 'Berkemah',
-            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp 100.000  per malam.'
+            description: 'Berkemah di Spot Camp Pantai menawarkan pengalaman yang tenang dan menyegarkan dengan berkemah di sepanjang garis pantai. Nikmati pasir putih yang lembut dan deburan ombak yang menenangkan. Berkemah di pantai adalah cara yang ideal untuk merelaksasikan pikiran dan tubuh Anda. Tidak usah khawatir akan perlengkapan, wisata pantai Semat menyediakan tenda untuk dapat disewa dengan tarif terjangkau hanya Rp. 50.000 - 300.000 per malam.'
 
         },
+
+        outbond: {
+            image: 'pantai-semat/outbond.jpeg',
+            title: 'Outbond',
+            description: 'Outbound Pantai Semat menghadirkan tiga jam penuh keseruan yang memadukan tawa, tantangan, dan kebersamaan, dengan harga Rp50.000/orang untuk kelompok kecil (3–9 orang), serta paket anak-anak seharga Rp40.000/orang untuk kelompok kecil dan Rp35.000/orang untuk kelompok besar, menjadikan setiap momen di sini pengalaman seru yang menyatu dengan alam.'
+        },
+
         kuliner: {
             image: 'pantai-kalibuntung/pantaikalibuntung10.jpg',
             title: 'Kuliner',
